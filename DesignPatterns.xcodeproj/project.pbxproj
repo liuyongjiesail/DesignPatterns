@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED19D7FC21B1618B00D92424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D7FB21B1618B00D92424 /* AppDelegate.m */; };
+		ED19D80221B1618B00D92424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED19D80021B1618B00D92424 /* Main.storyboard */; };
+		ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED19D80321B1618D00D92424 /* Assets.xcassets */; };
+		ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED19D80521B1618D00D92424 /* LaunchScreen.storyboard */; };
+		ED19D80A21B1618D00D92424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D80921B1618D00D92424 /* main.m */; };
+		ED19D81421B1618D00D92424 /* DesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D81321B1618D00D92424 /* DesignPatternsTests.m */; };
+		ED19D82321B4E4A000D92424 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D82221B4E4A000D92424 /* Duck.m */; };
+		ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D82721B4E62900D92424 /* FlyWithWings.m */; };
+		ED19D82D21B4E67000D92424 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D82C21B4E67000D92424 /* FlyNoWay.m */; };
+		ED19D83021B4E6B900D92424 /* FlyRocketPowered.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D82F21B4E6B900D92424 /* FlyRocketPowered.m */; };
+		ED19D83321B4E73D00D92424 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D83221B4E73D00D92424 /* Quack.m */; };
+		ED19D83621B4E75300D92424 /* Squeak.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D83521B4E75300D92424 /* Squeak.m */; };
+		ED19D83921B4E75E00D92424 /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D83821B4E75E00D92424 /* MuteQuack.m */; };
+		ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D83B21B4FF3D00D92424 /* MallardDuck.m */; };
+		ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D83E21B5000B00D92424 /* RedHeadDuck.m */; };
+		ED19D84421B5054F00D92424 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84321B5054F00D92424 /* PayViewController.m */; };
+		ED19D84721B505BC00D92424 /* PaymentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84621B505BC00D92424 /* PaymentObject.m */; };
+		ED19D84A21B505E300D92424 /* Alipayment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84921B505E300D92424 /* Alipayment.m */; };
+		ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84C21B505EE00D92424 /* WechatPayment.m */; };
+		ED19D85021B5061200D92424 /* ApplePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84F21B5061200D92424 /* ApplePayment.m */; };
+		ED19D85821B5144F00D92424 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D85721B5144F00D92424 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED19D81021B1618D00D92424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED19D7EF21B1618B00D92424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED19D7F621B1618B00D92424;
+			remoteInfo = DesignPatterns;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED19D7F721B1618B00D92424 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED19D7FA21B1618B00D92424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED19D7FB21B1618B00D92424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED19D80121B1618B00D92424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED19D80321B1618D00D92424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED19D80621B1618D00D92424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED19D80821B1618D00D92424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED19D80921B1618D00D92424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED19D80F21B1618D00D92424 /* DesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED19D81321B1618D00D92424 /* DesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsTests.m; sourceTree = "<group>"; };
+		ED19D81521B1618D00D92424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED19D82121B4E4A000D92424 /* Duck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		ED19D82221B4E4A000D92424 /* Duck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		ED19D82421B4E52E00D92424 /* FlyInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyInterface.h; sourceTree = "<group>"; };
+		ED19D82521B4E59A00D92424 /* QuackInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackInterface.h; sourceTree = "<group>"; };
+		ED19D82621B4E62900D92424 /* FlyWithWings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyWithWings.h; sourceTree = "<group>"; };
+		ED19D82721B4E62900D92424 /* FlyWithWings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyWithWings.m; sourceTree = "<group>"; };
+		ED19D82B21B4E67000D92424 /* FlyNoWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyNoWay.h; sourceTree = "<group>"; };
+		ED19D82C21B4E67000D92424 /* FlyNoWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyNoWay.m; sourceTree = "<group>"; };
+		ED19D82E21B4E6B900D92424 /* FlyRocketPowered.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyRocketPowered.h; sourceTree = "<group>"; };
+		ED19D82F21B4E6B900D92424 /* FlyRocketPowered.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyRocketPowered.m; sourceTree = "<group>"; };
+		ED19D83121B4E73D00D92424 /* Quack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		ED19D83221B4E73D00D92424 /* Quack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		ED19D83421B4E75200D92424 /* Squeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Squeak.h; sourceTree = "<group>"; };
+		ED19D83521B4E75300D92424 /* Squeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Squeak.m; sourceTree = "<group>"; };
+		ED19D83721B4E75E00D92424 /* MuteQuack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuteQuack.h; sourceTree = "<group>"; };
+		ED19D83821B4E75E00D92424 /* MuteQuack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuteQuack.m; sourceTree = "<group>"; };
+		ED19D83A21B4FF3D00D92424 /* MallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		ED19D83B21B4FF3D00D92424 /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		ED19D83D21B5000B00D92424 /* RedHeadDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedHeadDuck.h; sourceTree = "<group>"; };
+		ED19D83E21B5000B00D92424 /* RedHeadDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedHeadDuck.m; sourceTree = "<group>"; };
+		ED19D84221B5054F00D92424 /* PayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		ED19D84321B5054F00D92424 /* PayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		ED19D84521B505BC00D92424 /* PaymentObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentObject.h; sourceTree = "<group>"; };
+		ED19D84621B505BC00D92424 /* PaymentObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentObject.m; sourceTree = "<group>"; };
+		ED19D84821B505E300D92424 /* Alipayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alipayment.h; sourceTree = "<group>"; };
+		ED19D84921B505E300D92424 /* Alipayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alipayment.m; sourceTree = "<group>"; };
+		ED19D84B21B505EE00D92424 /* WechatPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WechatPayment.h; sourceTree = "<group>"; };
+		ED19D84C21B505EE00D92424 /* WechatPayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WechatPayment.m; sourceTree = "<group>"; };
+		ED19D84E21B5061200D92424 /* ApplePayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePayment.h; sourceTree = "<group>"; };
+		ED19D84F21B5061200D92424 /* ApplePayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePayment.m; sourceTree = "<group>"; };
+		ED19D85521B5069900D92424 /* PaymentInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentInterface.h; sourceTree = "<group>"; };
+		ED19D85621B5144F00D92424 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ED19D85721B5144F00D92424 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED19D7F421B1618B00D92424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED19D80C21B1618D00D92424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED19D7EE21B1618B00D92424 = {
+			isa = PBXGroup;
+			children = (
+				ED19D7F921B1618B00D92424 /* DesignPatterns */,
+				ED19D81221B1618D00D92424 /* DesignPatternsTests */,
+				ED19D7F821B1618B00D92424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED19D7F821B1618B00D92424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D7F721B1618B00D92424 /* DesignPatterns.app */,
+				ED19D80F21B1618D00D92424 /* DesignPatternsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED19D7F921B1618B00D92424 /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */,
+				ED19D81F21B4E29A00D92424 /* Supporting Files */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		ED19D81221B1618D00D92424 /* DesignPatternsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D81321B1618D00D92424 /* DesignPatternsTests.m */,
+				ED19D81521B1618D00D92424 /* Info.plist */,
+			);
+			path = DesignPatternsTests;
+			sourceTree = "<group>";
+		};
+		ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D84021B504E800D92424 /* Example（示例） */,
+				ED19D84121B504F800D92424 /* Practice（实践） */,
+			);
+			path = "StrategyPattern（策略模式）";
+			sourceTree = "<group>";
+		};
+		ED19D81F21B4E29A00D92424 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D7FA21B1618B00D92424 /* AppDelegate.h */,
+				ED19D7FB21B1618B00D92424 /* AppDelegate.m */,
+				ED19D85621B5144F00D92424 /* MainViewController.h */,
+				ED19D85721B5144F00D92424 /* MainViewController.m */,
+				ED19D80021B1618B00D92424 /* Main.storyboard */,
+				ED19D80321B1618D00D92424 /* Assets.xcassets */,
+				ED19D80521B1618D00D92424 /* LaunchScreen.storyboard */,
+				ED19D80821B1618D00D92424 /* Info.plist */,
+				ED19D80921B1618D00D92424 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED19D82921B4E64200D92424 /* FlyBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D82421B4E52E00D92424 /* FlyInterface.h */,
+				ED19D82621B4E62900D92424 /* FlyWithWings.h */,
+				ED19D82721B4E62900D92424 /* FlyWithWings.m */,
+				ED19D82B21B4E67000D92424 /* FlyNoWay.h */,
+				ED19D82C21B4E67000D92424 /* FlyNoWay.m */,
+				ED19D82E21B4E6B900D92424 /* FlyRocketPowered.h */,
+				ED19D82F21B4E6B900D92424 /* FlyRocketPowered.m */,
+			);
+			path = FlyBehavior;
+			sourceTree = "<group>";
+		};
+		ED19D82A21B4E65100D92424 /* QuackBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D82521B4E59A00D92424 /* QuackInterface.h */,
+				ED19D83121B4E73D00D92424 /* Quack.h */,
+				ED19D83221B4E73D00D92424 /* Quack.m */,
+				ED19D83421B4E75200D92424 /* Squeak.h */,
+				ED19D83521B4E75300D92424 /* Squeak.m */,
+				ED19D83721B4E75E00D92424 /* MuteQuack.h */,
+				ED19D83821B4E75E00D92424 /* MuteQuack.m */,
+			);
+			path = QuackBehavior;
+			sourceTree = "<group>";
+		};
+		ED19D84021B504E800D92424 /* Example（示例） */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D82121B4E4A000D92424 /* Duck.h */,
+				ED19D82221B4E4A000D92424 /* Duck.m */,
+				ED19D83A21B4FF3D00D92424 /* MallardDuck.h */,
+				ED19D83B21B4FF3D00D92424 /* MallardDuck.m */,
+				ED19D83D21B5000B00D92424 /* RedHeadDuck.h */,
+				ED19D83E21B5000B00D92424 /* RedHeadDuck.m */,
+				ED19D82A21B4E65100D92424 /* QuackBehavior */,
+				ED19D82921B4E64200D92424 /* FlyBehavior */,
+			);
+			path = "Example（示例）";
+			sourceTree = "<group>";
+		};
+		ED19D84121B504F800D92424 /* Practice（实践） */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D84221B5054F00D92424 /* PayViewController.h */,
+				ED19D84321B5054F00D92424 /* PayViewController.m */,
+				ED19D84521B505BC00D92424 /* PaymentObject.h */,
+				ED19D84621B505BC00D92424 /* PaymentObject.m */,
+				ED19D85521B5069900D92424 /* PaymentInterface.h */,
+				ED19D85121B5062100D92424 /* PaymentStyle */,
+			);
+			path = "Practice（实践）";
+			sourceTree = "<group>";
+		};
+		ED19D85121B5062100D92424 /* PaymentStyle */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D85421B5064B00D92424 /* ApplePay */,
+				ED19D85321B5063800D92424 /* Wechat */,
+				ED19D85221B5062D00D92424 /* Alipay */,
+			);
+			path = PaymentStyle;
+			sourceTree = "<group>";
+		};
+		ED19D85221B5062D00D92424 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D84821B505E300D92424 /* Alipayment.h */,
+				ED19D84921B505E300D92424 /* Alipayment.m */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		ED19D85321B5063800D92424 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D84B21B505EE00D92424 /* WechatPayment.h */,
+				ED19D84C21B505EE00D92424 /* WechatPayment.m */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		ED19D85421B5064B00D92424 /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D84E21B5061200D92424 /* ApplePayment.h */,
+				ED19D84F21B5061200D92424 /* ApplePayment.m */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED19D7F621B1618B00D92424 /* DesignPatterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED19D81821B1618D00D92424 /* Build configuration list for PBXNativeTarget "DesignPatterns" */;
+			buildPhases = (
+				ED19D7F321B1618B00D92424 /* Sources */,
+				ED19D7F421B1618B00D92424 /* Frameworks */,
+				ED19D7F521B1618B00D92424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignPatterns;
+			productName = DesignPatterns;
+			productReference = ED19D7F721B1618B00D92424 /* DesignPatterns.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED19D80E21B1618D00D92424 /* DesignPatternsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED19D81B21B1618D00D92424 /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */;
+			buildPhases = (
+				ED19D80B21B1618D00D92424 /* Sources */,
+				ED19D80C21B1618D00D92424 /* Frameworks */,
+				ED19D80D21B1618D00D92424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED19D81121B1618D00D92424 /* PBXTargetDependency */,
+			);
+			name = DesignPatternsTests;
+			productName = DesignPatternsTests;
+			productReference = ED19D80F21B1618D00D92424 /* DesignPatternsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED19D7EF21B1618B00D92424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "刘永杰";
+				TargetAttributes = {
+					ED19D7F621B1618B00D92424 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ED19D80E21B1618D00D92424 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ED19D7F621B1618B00D92424;
+					};
+				};
+			};
+			buildConfigurationList = ED19D7F221B1618B00D92424 /* Build configuration list for PBXProject "DesignPatterns" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED19D7EE21B1618B00D92424;
+			productRefGroup = ED19D7F821B1618B00D92424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED19D7F621B1618B00D92424 /* DesignPatterns */,
+				ED19D80E21B1618D00D92424 /* DesignPatternsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED19D7F521B1618B00D92424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
+				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
+				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED19D80D21B1618D00D92424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED19D7F321B1618B00D92424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED19D82D21B4E67000D92424 /* FlyNoWay.m in Sources */,
+				ED19D82321B4E4A000D92424 /* Duck.m in Sources */,
+				ED19D80A21B1618D00D92424 /* main.m in Sources */,
+				ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */,
+				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
+				ED19D83921B4E75E00D92424 /* MuteQuack.m in Sources */,
+				ED19D83021B4E6B900D92424 /* FlyRocketPowered.m in Sources */,
+				ED19D84721B505BC00D92424 /* PaymentObject.m in Sources */,
+				ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */,
+				ED19D84A21B505E300D92424 /* Alipayment.m in Sources */,
+				ED19D7FC21B1618B00D92424 /* AppDelegate.m in Sources */,
+				ED19D85021B5061200D92424 /* ApplePayment.m in Sources */,
+				ED19D85821B5144F00D92424 /* MainViewController.m in Sources */,
+				ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */,
+				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
+				ED19D83321B4E73D00D92424 /* Quack.m in Sources */,
+				ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED19D80B21B1618D00D92424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED19D81421B1618D00D92424 /* DesignPatternsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED19D81121B1618D00D92424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED19D7F621B1618B00D92424 /* DesignPatterns */;
+			targetProxy = ED19D81021B1618D00D92424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED19D80021B1618B00D92424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED19D80121B1618B00D92424 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED19D80521B1618D00D92424 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED19D80621B1618D00D92424 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED19D81621B1618D00D92424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED19D81721B1618D00D92424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED19D81921B1618D00D92424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9842T9339;
+				INFOPLIST_FILE = "$(SRCROOT)/DesignPatterns/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyq.DesignPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED19D81A21B1618D00D92424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9842T9339;
+				INFOPLIST_FILE = "$(SRCROOT)/DesignPatterns/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyq.DesignPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED19D81C21B1618D00D92424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9842T9339;
+				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyq.DesignPatternsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
+			};
+			name = Debug;
+		};
+		ED19D81D21B1618D00D92424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9842T9339;
+				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lyq.DesignPatternsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED19D7F221B1618B00D92424 /* Build configuration list for PBXProject "DesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED19D81621B1618D00D92424 /* Debug */,
+				ED19D81721B1618D00D92424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED19D81821B1618D00D92424 /* Build configuration list for PBXNativeTarget "DesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED19D81921B1618D00D92424 /* Debug */,
+				ED19D81A21B1618D00D92424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED19D81B21B1618D00D92424 /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED19D81C21B1618D00D92424 /* Debug */,
+				ED19D81D21B1618D00D92424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED19D7EF21B1618B00D92424 /* Project object */;
+}
