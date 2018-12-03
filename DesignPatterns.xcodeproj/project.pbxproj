@@ -28,6 +28,8 @@
 		ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84C21B505EE00D92424 /* WechatPayment.m */; };
 		ED19D85021B5061200D92424 /* ApplePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84F21B5061200D92424 /* ApplePayment.m */; };
 		ED19D85821B5144F00D92424 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D85721B5144F00D92424 /* MainViewController.m */; };
+		ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D85921B5170200D92424 /* OODesignPrinciple.strings */; };
+		ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D85B21B5190D00D92424 /* StrategyPattern.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		ED19D85521B5069900D92424 /* PaymentInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentInterface.h; sourceTree = "<group>"; };
 		ED19D85621B5144F00D92424 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		ED19D85721B5144F00D92424 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		ED19D85921B5170200D92424 /* OODesignPrinciple.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = OODesignPrinciple.strings; sourceTree = "<group>"; };
+		ED19D85B21B5190D00D92424 /* StrategyPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = StrategyPattern.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 		ED19D7F921B1618B00D92424 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				ED19D85921B5170200D92424 /* OODesignPrinciple.strings */,
 				ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 			);
@@ -144,6 +149,7 @@
 		ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */ = {
 			isa = PBXGroup;
 			children = (
+				ED19D85B21B5190D00D92424 /* StrategyPattern.strings */,
 				ED19D84021B504E800D92424 /* Example（示例） */,
 				ED19D84121B504F800D92424 /* Practice（实践） */,
 			);
@@ -339,9 +345,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */,
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
 				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
 				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
+				ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
