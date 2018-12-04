@@ -1,68 +1,66 @@
 //
-//  MainViewController.m
+//  FeedListViewController.m
 //  DesignPatterns
 //
-//  Created by 刘永杰 on 2018/12/3.
+//  Created by 刘永杰 on 2018/12/4.
 //  Copyright © 2018 刘永杰. All rights reserved.
 //
 
-#import "MainViewController.h"
-#import "PayViewController.h"
 #import "FeedListViewController.h"
+#import "WeatherData.h"
+#import "CurrentConditionsDisplay.h"
+#import "StatisticsDisplay.h"
+#import "ForecastDisplay.h"
 
-@interface MainViewController ()
-
-@property (strong, nonatomic) NSMutableArray *dataArray;
+@interface FeedListViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation FeedListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"设计模式";
+    WeatherData *weatherData = [WeatherData new];
     
-    self.dataArray = @[@"策略模式", @"观察者模式"].mutableCopy;
+    CurrentConditionsDisplay *currentDisplay = [[CurrentConditionsDisplay alloc] initDisplay:weatherData];
+    StatisticsDisplay *statisticsDisplay = [[StatisticsDisplay alloc] initWithDisplay:weatherData];
+    ForecastDisplay *forecastDisplay = [[ForecastDisplay alloc] initWithDisplay:weatherData];
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [weatherData setMeasurements:37.9 humidity:45.0 pressure:29.0f];
     
+    [weatherData setMeasurements:38.9 humidity:48.0 pressure:29.1f];
+
+    [weatherData setMeasurements:39.9 humidity:49.0 pressure:29.5f];
+
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
+    
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+#warning Incomplete implementation, return the number of sections
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataArray.count;
+#warning Incomplete implementation, return the number of rows
+    return 0;
 }
 
-
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.textLabel.text = self.dataArray[indexPath.row];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
     
     return cell;
 }
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    switch (indexPath.row) {
-        case 0: {
-            [self showViewController:[PayViewController new] sender:nil];
-            break;
-        }
-        case 1: {
-            [self showViewController:[FeedListViewController new] sender:nil];
-            break;
-        }
-        case 2: {
-            break;
-        }
-    }
-}
-
+*/
 
 /*
 // Override to support conditional editing of the table view.
