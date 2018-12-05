@@ -36,6 +36,11 @@
 		ED19D86F21B6723C00D92424 /* StatisticsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D86E21B6723C00D92424 /* StatisticsDisplay.m */; };
 		ED19D87221B6724A00D92424 /* ForecastDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D87121B6724A00D92424 /* ForecastDisplay.m */; };
 		ED19D87521B685F900D92424 /* FeedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D87421B685F900D92424 /* FeedListViewController.m */; };
+		ED19D87B21B763E400D92424 /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D87A21B763E400D92424 /* FeedModel.m */; };
+		ED19D88421B7755E00D92424 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D88321B7755E00D92424 /* FeedCell.m */; };
+		ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D88621B7B26200D92424 /* FeedDetailViewController.m */; };
+		ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D88921B7B29700D92424 /* FeedDetailView.m */; };
+		ED19D88C21B7B6D100D92424 /* PracticeDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D88B21B7B6D100D92424 /* PracticeDescription.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,17 @@
 		ED19D87121B6724A00D92424 /* ForecastDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForecastDisplay.m; sourceTree = "<group>"; };
 		ED19D87321B685F900D92424 /* FeedListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedListViewController.h; sourceTree = "<group>"; };
 		ED19D87421B685F900D92424 /* FeedListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedListViewController.m; sourceTree = "<group>"; };
+		ED19D87921B763E400D92424 /* FeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
+		ED19D87A21B763E400D92424 /* FeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
+		ED19D88021B7664E00D92424 /* DPModelInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPModelInterface.h; sourceTree = "<group>"; };
+		ED19D88121B7694700D92424 /* DPViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPViewInterface.h; sourceTree = "<group>"; };
+		ED19D88221B7755E00D92424 /* FeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		ED19D88321B7755E00D92424 /* FeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
+		ED19D88521B7B26200D92424 /* FeedDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailViewController.h; sourceTree = "<group>"; };
+		ED19D88621B7B26200D92424 /* FeedDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailViewController.m; sourceTree = "<group>"; };
+		ED19D88821B7B29700D92424 /* FeedDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailView.h; sourceTree = "<group>"; };
+		ED19D88921B7B29700D92424 /* FeedDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailView.m; sourceTree = "<group>"; };
+		ED19D88B21B7B6D100D92424 /* PracticeDescription.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = PracticeDescription.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,8 +324,12 @@
 		ED19D86121B6115A00D92424 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
-				ED19D87321B685F900D92424 /* FeedListViewController.h */,
-				ED19D87421B685F900D92424 /* FeedListViewController.m */,
+				ED19D88B21B7B6D100D92424 /* PracticeDescription.strings */,
+				ED19D88021B7664E00D92424 /* DPModelInterface.h */,
+				ED19D88121B7694700D92424 /* DPViewInterface.h */,
+				ED19D87721B7639100D92424 /* Model (Subject) */,
+				ED19D87821B7639700D92424 /* View (Observer) */,
+				ED19D87621B7638000D92424 /* ViewController */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -337,6 +357,37 @@
 				ED19D87121B6724A00D92424 /* ForecastDisplay.m */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		ED19D87621B7638000D92424 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D87321B685F900D92424 /* FeedListViewController.h */,
+				ED19D87421B685F900D92424 /* FeedListViewController.m */,
+				ED19D88521B7B26200D92424 /* FeedDetailViewController.h */,
+				ED19D88621B7B26200D92424 /* FeedDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ED19D87721B7639100D92424 /* Model (Subject) */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D87921B763E400D92424 /* FeedModel.h */,
+				ED19D87A21B763E400D92424 /* FeedModel.m */,
+			);
+			path = "Model (Subject)";
+			sourceTree = "<group>";
+		};
+		ED19D87821B7639700D92424 /* View (Observer) */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D88221B7755E00D92424 /* FeedCell.h */,
+				ED19D88321B7755E00D92424 /* FeedCell.m */,
+				ED19D88821B7B29700D92424 /* FeedDetailView.h */,
+				ED19D88921B7B29700D92424 /* FeedDetailView.m */,
+			);
+			path = "View (Observer)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +470,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED19D88C21B7B6D100D92424 /* PracticeDescription.strings in Resources */,
 				ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */,
 				ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */,
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
@@ -447,14 +499,17 @@
 				ED19D87521B685F900D92424 /* FeedListViewController.m in Sources */,
 				ED19D80A21B1618D00D92424 /* main.m in Sources */,
 				ED19D86F21B6723C00D92424 /* StatisticsDisplay.m in Sources */,
+				ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */,
 				ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */,
 				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
 				ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */,
 				ED19D83921B4E75E00D92424 /* MuteQuack.m in Sources */,
+				ED19D88421B7755E00D92424 /* FeedCell.m in Sources */,
 				ED19D87221B6724A00D92424 /* ForecastDisplay.m in Sources */,
 				ED19D83021B4E6B900D92424 /* FlyRocketPowered.m in Sources */,
 				ED19D84721B505BC00D92424 /* PaymentObject.m in Sources */,
 				ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */,
+				ED19D87B21B763E400D92424 /* FeedModel.m in Sources */,
 				ED19D84A21B505E300D92424 /* Alipayment.m in Sources */,
 				ED19D86721B6596F00D92424 /* WeatherData.m in Sources */,
 				ED19D7FC21B1618B00D92424 /* AppDelegate.m in Sources */,
@@ -464,6 +519,7 @@
 				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
 				ED19D83321B4E73D00D92424 /* Quack.m in Sources */,
 				ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */,
+				ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
