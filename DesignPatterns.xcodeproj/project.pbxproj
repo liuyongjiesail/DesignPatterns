@@ -41,6 +41,18 @@
 		ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D88621B7B26200D92424 /* FeedDetailViewController.m */; };
 		ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D88921B7B29700D92424 /* FeedDetailView.m */; };
 		ED19D88C21B7B6D100D92424 /* PracticeDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D88B21B7B6D100D92424 /* PracticeDescription.strings */; };
+		ED19D89621B949A100D92424 /* DecoratePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D89521B949A100D92424 /* DecoratePattern.strings */; };
+		ED19D89D21B950A200D92424 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D89C21B950A200D92424 /* Beverage.m */; };
+		ED19D8A021B9524C00D92424 /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D89F21B9524C00D92424 /* HouseBlend.m */; };
+		ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8A221B9536200D92424 /* DarkRoast.m */; };
+		ED19D8A621B953B400D92424 /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8A521B953B400D92424 /* Espresso.m */; };
+		ED19D8A921B953E400D92424 /* Decaf.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8A821B953E400D92424 /* Decaf.m */; };
+		ED19D8AC21B9547400D92424 /* CondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8AB21B9547400D92424 /* CondimentDecorator.m */; };
+		ED19D8B221B954CE00D92424 /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8B121B954CE00D92424 /* Mocha.m */; };
+		ED19D8B521B956B300D92424 /* Milk.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8B421B956B300D92424 /* Milk.m */; };
+		ED19D8B821B9572200D92424 /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8B721B9572200D92424 /* Soy.m */; };
+		ED19D8BB21B9576000D92424 /* Whip.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8BA21B9576000D92424 /* Whip.m */; };
+		ED19D8C121BA181600D92424 /* DecorateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8C021BA181600D92424 /* DecorateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +137,29 @@
 		ED19D88821B7B29700D92424 /* FeedDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailView.h; sourceTree = "<group>"; };
 		ED19D88921B7B29700D92424 /* FeedDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailView.m; sourceTree = "<group>"; };
 		ED19D88B21B7B6D100D92424 /* PracticeDescription.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = PracticeDescription.strings; sourceTree = "<group>"; };
+		ED19D89521B949A100D92424 /* DecoratePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = DecoratePattern.strings; sourceTree = "<group>"; };
+		ED19D89B21B950A200D92424 /* Beverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		ED19D89C21B950A200D92424 /* Beverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
+		ED19D89E21B9524C00D92424 /* HouseBlend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		ED19D89F21B9524C00D92424 /* HouseBlend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		ED19D8A121B9536200D92424 /* DarkRoast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkRoast.h; sourceTree = "<group>"; };
+		ED19D8A221B9536200D92424 /* DarkRoast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkRoast.m; sourceTree = "<group>"; };
+		ED19D8A421B953B400D92424 /* Espresso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		ED19D8A521B953B400D92424 /* Espresso.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		ED19D8A721B953E400D92424 /* Decaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decaf.h; sourceTree = "<group>"; };
+		ED19D8A821B953E400D92424 /* Decaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decaf.m; sourceTree = "<group>"; };
+		ED19D8AA21B9547400D92424 /* CondimentDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CondimentDecorator.h; sourceTree = "<group>"; };
+		ED19D8AB21B9547400D92424 /* CondimentDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CondimentDecorator.m; sourceTree = "<group>"; };
+		ED19D8B021B954CE00D92424 /* Mocha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		ED19D8B121B954CE00D92424 /* Mocha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		ED19D8B321B956B300D92424 /* Milk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Milk.h; sourceTree = "<group>"; };
+		ED19D8B421B956B300D92424 /* Milk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Milk.m; sourceTree = "<group>"; };
+		ED19D8B621B9572200D92424 /* Soy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		ED19D8B721B9572200D92424 /* Soy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
+		ED19D8B921B9576000D92424 /* Whip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whip.h; sourceTree = "<group>"; };
+		ED19D8BA21B9576000D92424 /* Whip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whip.m; sourceTree = "<group>"; };
+		ED19D8BF21BA181600D92424 /* DecorateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecorateViewController.h; sourceTree = "<group>"; };
+		ED19D8C021BA181600D92424 /* DecorateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +204,7 @@
 				ED19D85921B5170200D92424 /* OODesignPrinciple.strings */,
 				ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */,
 				ED19D85D21B55E0600D92424 /* ObserverPattern（观察者模式） */,
+				ED19D89421B9036500D92424 /* DecoratePattern (装饰者模式) */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 			);
 			path = DesignPatterns;
@@ -390,6 +426,68 @@
 			path = "View (Observer)";
 			sourceTree = "<group>";
 		};
+		ED19D89421B9036500D92424 /* DecoratePattern (装饰者模式) */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D89521B949A100D92424 /* DecoratePattern.strings */,
+				ED19D89721B94DF400D92424 /* Example */,
+				ED19D89821B94E0800D92424 /* Practice */,
+			);
+			path = "DecoratePattern (装饰者模式)";
+			sourceTree = "<group>";
+		};
+		ED19D89721B94DF400D92424 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D89921B9505400D92424 /* Component */,
+				ED19D89A21B9506C00D92424 /* Decorate */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		ED19D89821B94E0800D92424 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D8BF21BA181600D92424 /* DecorateViewController.h */,
+				ED19D8C021BA181600D92424 /* DecorateViewController.m */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		ED19D89921B9505400D92424 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D89B21B950A200D92424 /* Beverage.h */,
+				ED19D89C21B950A200D92424 /* Beverage.m */,
+				ED19D89E21B9524C00D92424 /* HouseBlend.h */,
+				ED19D89F21B9524C00D92424 /* HouseBlend.m */,
+				ED19D8A121B9536200D92424 /* DarkRoast.h */,
+				ED19D8A221B9536200D92424 /* DarkRoast.m */,
+				ED19D8A421B953B400D92424 /* Espresso.h */,
+				ED19D8A521B953B400D92424 /* Espresso.m */,
+				ED19D8A721B953E400D92424 /* Decaf.h */,
+				ED19D8A821B953E400D92424 /* Decaf.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		ED19D89A21B9506C00D92424 /* Decorate */ = {
+			isa = PBXGroup;
+			children = (
+				ED19D8AA21B9547400D92424 /* CondimentDecorator.h */,
+				ED19D8AB21B9547400D92424 /* CondimentDecorator.m */,
+				ED19D8B021B954CE00D92424 /* Mocha.h */,
+				ED19D8B121B954CE00D92424 /* Mocha.m */,
+				ED19D8B321B956B300D92424 /* Milk.h */,
+				ED19D8B421B956B300D92424 /* Milk.m */,
+				ED19D8B621B9572200D92424 /* Soy.h */,
+				ED19D8B721B9572200D92424 /* Soy.m */,
+				ED19D8B921B9576000D92424 /* Whip.h */,
+				ED19D8BA21B9576000D92424 /* Whip.m */,
+			);
+			path = Decorate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -474,6 +572,7 @@
 				ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */,
 				ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */,
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
+				ED19D89621B949A100D92424 /* DecoratePattern.strings in Resources */,
 				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
 				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
 				ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */,
@@ -497,27 +596,38 @@
 				ED19D82D21B4E67000D92424 /* FlyNoWay.m in Sources */,
 				ED19D82321B4E4A000D92424 /* Duck.m in Sources */,
 				ED19D87521B685F900D92424 /* FeedListViewController.m in Sources */,
+				ED19D8B821B9572200D92424 /* Soy.m in Sources */,
 				ED19D80A21B1618D00D92424 /* main.m in Sources */,
+				ED19D89D21B950A200D92424 /* Beverage.m in Sources */,
 				ED19D86F21B6723C00D92424 /* StatisticsDisplay.m in Sources */,
 				ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */,
+				ED19D8A621B953B400D92424 /* Espresso.m in Sources */,
 				ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */,
 				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
 				ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */,
+				ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */,
+				ED19D8B521B956B300D92424 /* Milk.m in Sources */,
 				ED19D83921B4E75E00D92424 /* MuteQuack.m in Sources */,
 				ED19D88421B7755E00D92424 /* FeedCell.m in Sources */,
+				ED19D8A021B9524C00D92424 /* HouseBlend.m in Sources */,
 				ED19D87221B6724A00D92424 /* ForecastDisplay.m in Sources */,
 				ED19D83021B4E6B900D92424 /* FlyRocketPowered.m in Sources */,
 				ED19D84721B505BC00D92424 /* PaymentObject.m in Sources */,
 				ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */,
+				ED19D8BB21B9576000D92424 /* Whip.m in Sources */,
+				ED19D8AC21B9547400D92424 /* CondimentDecorator.m in Sources */,
 				ED19D87B21B763E400D92424 /* FeedModel.m in Sources */,
+				ED19D8A921B953E400D92424 /* Decaf.m in Sources */,
 				ED19D84A21B505E300D92424 /* Alipayment.m in Sources */,
 				ED19D86721B6596F00D92424 /* WeatherData.m in Sources */,
 				ED19D7FC21B1618B00D92424 /* AppDelegate.m in Sources */,
 				ED19D85021B5061200D92424 /* ApplePayment.m in Sources */,
 				ED19D85821B5144F00D92424 /* MainViewController.m in Sources */,
+				ED19D8B221B954CE00D92424 /* Mocha.m in Sources */,
 				ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */,
 				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
 				ED19D83321B4E73D00D92424 /* Quack.m in Sources */,
+				ED19D8C121BA181600D92424 /* DecorateViewController.m in Sources */,
 				ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */,
 				ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */,
 			);

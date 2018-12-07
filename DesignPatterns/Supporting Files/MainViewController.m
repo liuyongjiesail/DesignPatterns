@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "PayViewController.h"
 #import "FeedListViewController.h"
+#import "DecorateViewController.h"
 
 @interface MainViewController ()
 
@@ -23,7 +24,7 @@
     
     self.title = @"设计模式";
     
-    self.dataArray = @[@"策略模式", @"观察者模式"].mutableCopy;
+    self.dataArray = @[@"策略模式", @"观察者模式", @"装饰者模式"].mutableCopy;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
@@ -58,6 +59,7 @@
             break;
         }
         case 2: {
+            [self showViewController:[DecorateViewController new] sender:nil];
             break;
         }
     }
