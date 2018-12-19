@@ -24,7 +24,7 @@
     
     self.title = @"设计模式";
     
-    self.dataArray = @[@"策略模式", @"观察者模式", @"装饰者模式"].mutableCopy;
+    self.dataArray = @[@"策略模式", @"观察者模式", @"装饰者模式", @"工厂模式"].mutableCopy;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
