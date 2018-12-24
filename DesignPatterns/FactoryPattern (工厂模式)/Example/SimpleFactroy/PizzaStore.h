@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PizzaStroe : NSObject
+@interface PizzaStore : NSObject
 
 - (Pizza *)orderPizza:(PizzaType)type;
 

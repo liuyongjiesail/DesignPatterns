@@ -6,16 +6,16 @@
 //  Copyright © 2018 刘永杰. All rights reserved.
 //
 
-#import "PizzaStroe.h"
+#import "PizzaStore.h"
 #import "SimplePizzaFactory.h"
 
-@interface PizzaStroe ()
+@interface PizzaStore ()
 
 @property (strong, nonatomic) SimplePizzaFactory *factory;
 
 @end
 
-@implementation PizzaStroe
+@implementation PizzaStore
 
 - (Pizza *)orderPizza:(PizzaType)type {
     Pizza *pizza;

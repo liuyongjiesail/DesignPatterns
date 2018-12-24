@@ -53,13 +53,25 @@
 		ED19D8B821B9572200D92424 /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8B721B9572200D92424 /* Soy.m */; };
 		ED19D8BB21B9576000D92424 /* Whip.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8BA21B9576000D92424 /* Whip.m */; };
 		ED19D8C121BA181600D92424 /* DecorateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8C021BA181600D92424 /* DecorateViewController.m */; };
-		ED48FE1B21CA7291007EE9B9 /* PizzaStroe.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE1A21CA7290007EE9B9 /* PizzaStroe.m */; };
+		ED48FE1B21CA7291007EE9B9 /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE1A21CA7290007EE9B9 /* PizzaStore.m */; };
 		ED48FE1E21CA72A2007EE9B9 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE1D21CA72A2007EE9B9 /* Pizza.m */; };
 		ED48FE2221CA72C6007EE9B9 /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE2121CA72C6007EE9B9 /* SimplePizzaFactory.m */; };
 		ED48FE2521CA7939007EE9B9 /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE2421CA7939007EE9B9 /* CheesePizza.m */; };
 		ED48FE2821CA7946007EE9B9 /* VeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE2721CA7946007EE9B9 /* VeggiePizza.m */; };
 		ED48FE2B21CA7953007EE9B9 /* ClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE2A21CA7953007EE9B9 /* ClamPizza.m */; };
 		ED48FE2E21CA7962007EE9B9 /* PepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE2D21CA7962007EE9B9 /* PepperoniPizza.m */; };
+		ED48FE3521D0FD81007EE9B9 /* YJPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE3421D0FD81007EE9B9 /* YJPizzaStore.m */; };
+		ED48FE3821D0FD92007EE9B9 /* YJPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE3721D0FD92007EE9B9 /* YJPizza.m */; };
+		ED48FE3B21D10063007EE9B9 /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE3A21D10063007EE9B9 /* NYPizzaStore.m */; };
+		ED48FE3E21D1007F007EE9B9 /* ChicagoPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE3D21D1007F007EE9B9 /* ChicagoPizzaStore.m */; };
+		ED48FE4321D10117007EE9B9 /* NYStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE4221D10117007EE9B9 /* NYStyleCheesePizza.m */; };
+		ED48FE4621D10130007EE9B9 /* NYStyleVeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE4521D10130007EE9B9 /* NYStyleVeggiePizza.m */; };
+		ED48FE4921D10142007EE9B9 /* NYStyleClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE4821D10142007EE9B9 /* NYStyleClamPizza.m */; };
+		ED48FE4C21D1015B007EE9B9 /* NYStylePepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE4B21D1015B007EE9B9 /* NYStylePepperoniPizza.m */; };
+		ED48FE4F21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE4E21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m */; };
+		ED48FE5221D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5121D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m */; };
+		ED48FE5521D1020B007EE9B9 /* ChicagoStyleClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5421D1020B007EE9B9 /* ChicagoStyleClamPizza.m */; };
+		ED48FE5821D10223007EE9B9 /* ChicagoStylePepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */; };
 		EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.strings */; };
 /* End PBXBuildFile section */
 
@@ -168,8 +180,8 @@
 		ED19D8BA21B9576000D92424 /* Whip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whip.m; sourceTree = "<group>"; };
 		ED19D8BF21BA181600D92424 /* DecorateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecorateViewController.h; sourceTree = "<group>"; };
 		ED19D8C021BA181600D92424 /* DecorateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorateViewController.m; sourceTree = "<group>"; };
-		ED48FE1921CA7290007EE9B9 /* PizzaStroe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaStroe.h; sourceTree = "<group>"; };
-		ED48FE1A21CA7290007EE9B9 /* PizzaStroe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaStroe.m; sourceTree = "<group>"; };
+		ED48FE1921CA7290007EE9B9 /* PizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		ED48FE1A21CA7290007EE9B9 /* PizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
 		ED48FE1C21CA72A2007EE9B9 /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
 		ED48FE1D21CA72A2007EE9B9 /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
 		ED48FE2021CA72C6007EE9B9 /* SimplePizzaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePizzaFactory.h; sourceTree = "<group>"; };
@@ -182,6 +194,30 @@
 		ED48FE2A21CA7953007EE9B9 /* ClamPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClamPizza.m; sourceTree = "<group>"; };
 		ED48FE2C21CA7962007EE9B9 /* PepperoniPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PepperoniPizza.h; sourceTree = "<group>"; };
 		ED48FE2D21CA7962007EE9B9 /* PepperoniPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PepperoniPizza.m; sourceTree = "<group>"; };
+		ED48FE3321D0FD81007EE9B9 /* YJPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJPizzaStore.h; sourceTree = "<group>"; };
+		ED48FE3421D0FD81007EE9B9 /* YJPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPizzaStore.m; sourceTree = "<group>"; };
+		ED48FE3621D0FD92007EE9B9 /* YJPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJPizza.h; sourceTree = "<group>"; };
+		ED48FE3721D0FD92007EE9B9 /* YJPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPizza.m; sourceTree = "<group>"; };
+		ED48FE3921D10063007EE9B9 /* NYPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYPizzaStore.h; sourceTree = "<group>"; };
+		ED48FE3A21D10063007EE9B9 /* NYPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYPizzaStore.m; sourceTree = "<group>"; };
+		ED48FE3C21D1007F007EE9B9 /* ChicagoPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaStore.h; sourceTree = "<group>"; };
+		ED48FE3D21D1007F007EE9B9 /* ChicagoPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaStore.m; sourceTree = "<group>"; };
+		ED48FE4121D10117007EE9B9 /* NYStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYStyleCheesePizza.h; sourceTree = "<group>"; };
+		ED48FE4221D10117007EE9B9 /* NYStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYStyleCheesePizza.m; sourceTree = "<group>"; };
+		ED48FE4421D10130007EE9B9 /* NYStyleVeggiePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYStyleVeggiePizza.h; sourceTree = "<group>"; };
+		ED48FE4521D10130007EE9B9 /* NYStyleVeggiePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYStyleVeggiePizza.m; sourceTree = "<group>"; };
+		ED48FE4721D10142007EE9B9 /* NYStyleClamPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYStyleClamPizza.h; sourceTree = "<group>"; };
+		ED48FE4821D10142007EE9B9 /* NYStyleClamPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYStyleClamPizza.m; sourceTree = "<group>"; };
+		ED48FE4A21D1015B007EE9B9 /* NYStylePepperoniPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYStylePepperoniPizza.h; sourceTree = "<group>"; };
+		ED48FE4B21D1015B007EE9B9 /* NYStylePepperoniPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYStylePepperoniPizza.m; sourceTree = "<group>"; };
+		ED48FE4D21D101A5007EE9B9 /* ChicagoStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStyleCheesePizza.h; sourceTree = "<group>"; };
+		ED48FE4E21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStyleCheesePizza.m; sourceTree = "<group>"; };
+		ED48FE5021D101B7007EE9B9 /* ChicagoStyleVeggiePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStyleVeggiePizza.h; sourceTree = "<group>"; };
+		ED48FE5121D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStyleVeggiePizza.m; sourceTree = "<group>"; };
+		ED48FE5321D1020B007EE9B9 /* ChicagoStyleClamPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStyleClamPizza.h; sourceTree = "<group>"; };
+		ED48FE5421D1020B007EE9B9 /* ChicagoStyleClamPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStyleClamPizza.m; sourceTree = "<group>"; };
+		ED48FE5621D10223007EE9B9 /* ChicagoStylePepperoniPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStylePepperoniPizza.h; sourceTree = "<group>"; };
+		ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStylePepperoniPizza.m; sourceTree = "<group>"; };
 		EDEC21CE21BE93A50088381F /* FactoryPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryPattern.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -515,19 +551,8 @@
 		ED48FE0621C91DE3007EE9B9 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				ED48FE1921CA7290007EE9B9 /* PizzaStroe.h */,
-				ED48FE1A21CA7290007EE9B9 /* PizzaStroe.m */,
-				ED48FE1C21CA72A2007EE9B9 /* Pizza.h */,
-				ED48FE1D21CA72A2007EE9B9 /* Pizza.m */,
-				ED48FE2321CA7939007EE9B9 /* CheesePizza.h */,
-				ED48FE2421CA7939007EE9B9 /* CheesePizza.m */,
-				ED48FE2621CA7946007EE9B9 /* VeggiePizza.h */,
-				ED48FE2721CA7946007EE9B9 /* VeggiePizza.m */,
-				ED48FE2921CA7953007EE9B9 /* ClamPizza.h */,
-				ED48FE2A21CA7953007EE9B9 /* ClamPizza.m */,
-				ED48FE2C21CA7962007EE9B9 /* PepperoniPizza.h */,
-				ED48FE2D21CA7962007EE9B9 /* PepperoniPizza.m */,
-				ED48FE1F21CA72A7007EE9B9 /* Simple */,
+				ED48FE1F21CA72A7007EE9B9 /* SimpleFactroy */,
+				ED48FE3021D0FD31007EE9B9 /* Factory */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -539,13 +564,96 @@
 			path = Practice;
 			sourceTree = "<group>";
 		};
-		ED48FE1F21CA72A7007EE9B9 /* Simple */ = {
+		ED48FE1F21CA72A7007EE9B9 /* SimpleFactroy */ = {
 			isa = PBXGroup;
 			children = (
+				ED48FE1921CA7290007EE9B9 /* PizzaStore.h */,
+				ED48FE1A21CA7290007EE9B9 /* PizzaStore.m */,
 				ED48FE2021CA72C6007EE9B9 /* SimplePizzaFactory.h */,
 				ED48FE2121CA72C6007EE9B9 /* SimplePizzaFactory.m */,
+				ED48FE2F21D0FCD2007EE9B9 /* Product */,
 			);
-			path = Simple;
+			path = SimpleFactroy;
+			sourceTree = "<group>";
+		};
+		ED48FE2F21D0FCD2007EE9B9 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				ED48FE1C21CA72A2007EE9B9 /* Pizza.h */,
+				ED48FE1D21CA72A2007EE9B9 /* Pizza.m */,
+				ED48FE2321CA7939007EE9B9 /* CheesePizza.h */,
+				ED48FE2421CA7939007EE9B9 /* CheesePizza.m */,
+				ED48FE2621CA7946007EE9B9 /* VeggiePizza.h */,
+				ED48FE2721CA7946007EE9B9 /* VeggiePizza.m */,
+				ED48FE2921CA7953007EE9B9 /* ClamPizza.h */,
+				ED48FE2A21CA7953007EE9B9 /* ClamPizza.m */,
+				ED48FE2C21CA7962007EE9B9 /* PepperoniPizza.h */,
+				ED48FE2D21CA7962007EE9B9 /* PepperoniPizza.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		ED48FE3021D0FD31007EE9B9 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				ED48FE3121D0FD53007EE9B9 /* Creator */,
+				ED48FE3221D0FD5C007EE9B9 /* Product */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		ED48FE3121D0FD53007EE9B9 /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				ED48FE3321D0FD81007EE9B9 /* YJPizzaStore.h */,
+				ED48FE3421D0FD81007EE9B9 /* YJPizzaStore.m */,
+				ED48FE3921D10063007EE9B9 /* NYPizzaStore.h */,
+				ED48FE3A21D10063007EE9B9 /* NYPizzaStore.m */,
+				ED48FE3C21D1007F007EE9B9 /* ChicagoPizzaStore.h */,
+				ED48FE3D21D1007F007EE9B9 /* ChicagoPizzaStore.m */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
+		ED48FE3221D0FD5C007EE9B9 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				ED48FE3621D0FD92007EE9B9 /* YJPizza.h */,
+				ED48FE3721D0FD92007EE9B9 /* YJPizza.m */,
+				ED48FE3F21D100EA007EE9B9 /* NY */,
+				ED48FE4021D100F1007EE9B9 /* Chicago */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		ED48FE3F21D100EA007EE9B9 /* NY */ = {
+			isa = PBXGroup;
+			children = (
+				ED48FE4121D10117007EE9B9 /* NYStyleCheesePizza.h */,
+				ED48FE4221D10117007EE9B9 /* NYStyleCheesePizza.m */,
+				ED48FE4421D10130007EE9B9 /* NYStyleVeggiePizza.h */,
+				ED48FE4521D10130007EE9B9 /* NYStyleVeggiePizza.m */,
+				ED48FE4721D10142007EE9B9 /* NYStyleClamPizza.h */,
+				ED48FE4821D10142007EE9B9 /* NYStyleClamPizza.m */,
+				ED48FE4A21D1015B007EE9B9 /* NYStylePepperoniPizza.h */,
+				ED48FE4B21D1015B007EE9B9 /* NYStylePepperoniPizza.m */,
+			);
+			path = NY;
+			sourceTree = "<group>";
+		};
+		ED48FE4021D100F1007EE9B9 /* Chicago */ = {
+			isa = PBXGroup;
+			children = (
+				ED48FE4D21D101A5007EE9B9 /* ChicagoStyleCheesePizza.h */,
+				ED48FE4E21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m */,
+				ED48FE5021D101B7007EE9B9 /* ChicagoStyleVeggiePizza.h */,
+				ED48FE5121D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m */,
+				ED48FE5321D1020B007EE9B9 /* ChicagoStyleClamPizza.h */,
+				ED48FE5421D1020B007EE9B9 /* ChicagoStyleClamPizza.m */,
+				ED48FE5621D10223007EE9B9 /* ChicagoStylePepperoniPizza.h */,
+				ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */,
+			);
+			path = Chicago;
 			sourceTree = "<group>";
 		};
 		EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */ = {
@@ -664,41 +772,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED48FE3B21D10063007EE9B9 /* NYPizzaStore.m in Sources */,
 				ED19D82D21B4E67000D92424 /* FlyNoWay.m in Sources */,
 				ED48FE2821CA7946007EE9B9 /* VeggiePizza.m in Sources */,
 				ED19D82321B4E4A000D92424 /* Duck.m in Sources */,
 				ED19D87521B685F900D92424 /* FeedListViewController.m in Sources */,
 				ED19D8B821B9572200D92424 /* Soy.m in Sources */,
+				ED48FE5521D1020B007EE9B9 /* ChicagoStyleClamPizza.m in Sources */,
+				ED48FE3821D0FD92007EE9B9 /* YJPizza.m in Sources */,
+				ED48FE3E21D1007F007EE9B9 /* ChicagoPizzaStore.m in Sources */,
 				ED48FE2521CA7939007EE9B9 /* CheesePizza.m in Sources */,
 				ED19D80A21B1618D00D92424 /* main.m in Sources */,
 				ED48FE2B21CA7953007EE9B9 /* ClamPizza.m in Sources */,
 				ED19D89D21B950A200D92424 /* Beverage.m in Sources */,
 				ED19D86F21B6723C00D92424 /* StatisticsDisplay.m in Sources */,
+				ED48FE5821D10223007EE9B9 /* ChicagoStylePepperoniPizza.m in Sources */,
 				ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */,
 				ED48FE2E21CA7962007EE9B9 /* PepperoniPizza.m in Sources */,
 				ED19D8A621B953B400D92424 /* Espresso.m in Sources */,
+				ED48FE4321D10117007EE9B9 /* NYStyleCheesePizza.m in Sources */,
 				ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */,
 				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
 				ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */,
+				ED48FE4F21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m in Sources */,
 				ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */,
 				ED19D8B521B956B300D92424 /* Milk.m in Sources */,
+				ED48FE4921D10142007EE9B9 /* NYStyleClamPizza.m in Sources */,
 				ED19D83921B4E75E00D92424 /* MuteQuack.m in Sources */,
 				ED19D88421B7755E00D92424 /* FeedCell.m in Sources */,
 				ED19D8A021B9524C00D92424 /* HouseBlend.m in Sources */,
 				ED19D87221B6724A00D92424 /* ForecastDisplay.m in Sources */,
+				ED48FE5221D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m in Sources */,
 				ED19D83021B4E6B900D92424 /* FlyRocketPowered.m in Sources */,
 				ED19D84721B505BC00D92424 /* PaymentObject.m in Sources */,
 				ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */,
 				ED48FE1E21CA72A2007EE9B9 /* Pizza.m in Sources */,
 				ED19D8BB21B9576000D92424 /* Whip.m in Sources */,
 				ED48FE2221CA72C6007EE9B9 /* SimplePizzaFactory.m in Sources */,
+				ED48FE3521D0FD81007EE9B9 /* YJPizzaStore.m in Sources */,
+				ED48FE4C21D1015B007EE9B9 /* NYStylePepperoniPizza.m in Sources */,
 				ED19D8AC21B9547400D92424 /* CondimentDecorator.m in Sources */,
+				ED48FE4621D10130007EE9B9 /* NYStyleVeggiePizza.m in Sources */,
 				ED19D87B21B763E400D92424 /* FeedModel.m in Sources */,
 				ED19D8A921B953E400D92424 /* Decaf.m in Sources */,
 				ED19D84A21B505E300D92424 /* Alipayment.m in Sources */,
 				ED19D86721B6596F00D92424 /* WeatherData.m in Sources */,
 				ED19D7FC21B1618B00D92424 /* AppDelegate.m in Sources */,
-				ED48FE1B21CA7291007EE9B9 /* PizzaStroe.m in Sources */,
+				ED48FE1B21CA7291007EE9B9 /* PizzaStore.m in Sources */,
 				ED19D85021B5061200D92424 /* ApplePayment.m in Sources */,
 				ED19D85821B5144F00D92424 /* MainViewController.m in Sources */,
 				ED19D8B221B954CE00D92424 /* Mocha.m in Sources */,
