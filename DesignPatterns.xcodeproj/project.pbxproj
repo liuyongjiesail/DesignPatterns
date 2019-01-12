@@ -242,8 +242,12 @@
 		ED19D7EE21B1618B00D92424 = {
 			isa = PBXGroup;
 			children = (
-				ED19D7F921B1618B00D92424 /* DesignPatterns */,
-				ED19D81221B1618D00D92424 /* DesignPatternsTests */,
+				ED19D85921B5170200D92424 /* OODesignPrinciple.strings */,
+				ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */,
+				ED19D85D21B55E0600D92424 /* ObserverPattern（观察者模式） */,
+				ED19D89421B9036500D92424 /* DecoratePattern (装饰者模式) */,
+				EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */,
+				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -255,19 +259,6 @@
 				ED19D80F21B1618D00D92424 /* DesignPatternsTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ED19D7F921B1618B00D92424 /* DesignPatterns */ = {
-			isa = PBXGroup;
-			children = (
-				ED19D85921B5170200D92424 /* OODesignPrinciple.strings */,
-				ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */,
-				ED19D85D21B55E0600D92424 /* ObserverPattern（观察者模式） */,
-				ED19D89421B9036500D92424 /* DecoratePattern (装饰者模式) */,
-				EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */,
-				ED19D81F21B4E29A00D92424 /* Supporting Files */,
-			);
-			path = DesignPatterns;
 			sourceTree = "<group>";
 		};
 		ED19D81221B1618D00D92424 /* DesignPatternsTests */ = {
@@ -301,6 +292,7 @@
 				ED19D80521B1618D00D92424 /* LaunchScreen.storyboard */,
 				ED19D80821B1618D00D92424 /* Info.plist */,
 				ED19D80921B1618D00D92424 /* main.m */,
+				ED19D81221B1618D00D92424 /* DesignPatternsTests */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -987,7 +979,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9842T9339;
-				INFOPLIST_FILE = "$(SRCROOT)/DesignPatterns/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1004,7 +996,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9842T9339;
-				INFOPLIST_FILE = "$(SRCROOT)/DesignPatterns/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
