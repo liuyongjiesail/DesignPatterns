@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "FeedModel.h"
 
 @interface AppDelegate ()
 
@@ -27,6 +28,45 @@
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
+    NSString *str = @"测试";
+    
+    NSMutableString *str2 = [NSMutableString stringWithFormat:@"测试2"];
+    NSMutableArray *array = @[@"test"].mutableCopy;
+    NSMutableArray *array2 = [NSMutableArray arrayWithObject:@"test2"];
+    
+    FeedModel *model = [FeedModel new];
+    model.feedId = @"123";
+    
+    void (^BlockTest)(void) = ^{
+        [str2 appendString:@"block内部"];
+        array2[0] = @"array2 内部";
+        model.feedId = @"345";
+        NSLog(@"\n==%@,%p", str, &str);
+        NSLog(@"\n==%@,%p", str2, &str2);
+        NSLog(@"\n==%@,%p", array, &array);
+        NSLog(@"\n==%@,%p", array2, &array2);
+        NSLog(@"\n==%@,%p", model.feedId, &model);
+
+    };
+    
+    str = @"哈哈";
+    array[0] = @"Array哈哈";
+    array2 = [NSMutableArray arrayWithObject:@"test3"];
+    [str2 appendString:@"block 😄"];
+    
+    model.feedId = @"456";
+
+    
+    BlockTest();
+    
+    NSLog(@"\n==%@,%p", str, &str);
+    
+    NSLog(@"\n==%@,%p", str2, &str2);
+
+    NSLog(@"\n==%@,%p", array2, &array2);
+    
+    NSLog(@"\n==%@,%p", model.feedId, &model);
+
     return YES;
 }
 

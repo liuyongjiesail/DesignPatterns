@@ -9,7 +9,7 @@
 #import "FeedModel.h"
 
 // 静态数组，保存所有模型数据，用于同id的不同内存块模型数据同步
-static NSMutableArray *feedModelArray = nil;
+static NSHashTable *feedModelArray = nil;
 
 @interface FeedModel ()
 
@@ -28,7 +28,7 @@ static NSMutableArray *feedModelArray = nil;
         
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
-            feedModelArray = [NSMutableArray array];
+            feedModelArray = [NSHashTable weakObjectsHashTable];
         });
         [feedModelArray addObject:self];
     }
