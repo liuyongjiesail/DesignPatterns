@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "FeedModel.h"
+#import "ANYPizzaStore.h"
+#import "AChicagoPizzaStore.h"
 
 @interface AppDelegate ()
 
@@ -28,6 +30,19 @@
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
+    ANYPizzaStore *NYStore = [ANYPizzaStore new];
+    [NYStore orderPizza:APizzaTypeCheese];
+    
+    AChicagoPizzaStore *chicagoStore = [AChicagoPizzaStore new];
+    [chicagoStore orderPizza:APizzaTypeVeggie];
+    
+
+    return YES;
+}
+
+#pragma mark - Test
+
+- (void)test {
     NSString *str = @"测试";
     
     NSMutableString *str2 = [NSMutableString stringWithFormat:@"测试2"];
@@ -46,7 +61,7 @@
         NSLog(@"\n==%@,%p", array, &array);
         NSLog(@"\n==%@,%p", array2, &array2);
         NSLog(@"\n==%@,%p", model.feedId, &model);
-
+        
     };
     
     str = @"哈哈";
@@ -55,21 +70,18 @@
     [str2 appendString:@"block 😄"];
     
     model.feedId = @"456";
-
+    
     
     BlockTest();
     
     NSLog(@"\n==%@,%p", str, &str);
     
     NSLog(@"\n==%@,%p", str2, &str2);
-
+    
     NSLog(@"\n==%@,%p", array2, &array2);
     
     NSLog(@"\n==%@,%p", model.feedId, &model);
-
-    return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

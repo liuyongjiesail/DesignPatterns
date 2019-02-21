@@ -17,6 +17,8 @@
     
     pizza = [self createPizza:type];
     
+    NSLog(@"%@", pizza);
+    
     [pizza prepare];
     [pizza bake];
     [pizza cut];

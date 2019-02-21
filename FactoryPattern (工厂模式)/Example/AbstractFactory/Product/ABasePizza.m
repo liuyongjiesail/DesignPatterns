@@ -14,6 +14,19 @@
     
     self.first = self.ingredientFactory.first;
     self.second = self.ingredientFactory.second;
+    NSLog(@"%@", self.first);
+    NSLog(@"%@", self.second);
+}
+
+- (void)bake {
+    
+}
+
+- (void)cut {
+    
+}
+
+- (void)box {
     
 }
 

@@ -10,4 +10,8 @@
 
 @implementation ANYIngredientFirst
 
+- (NSString *)description {
+    return @"纽约原料一";
+}
+
 @end

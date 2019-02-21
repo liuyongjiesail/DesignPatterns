@@ -10,4 +10,8 @@
 
 @implementation AClamPizza
 
+- (NSString *)description {
+    return NSStringFromClass(self.class);
+}
+
 @end

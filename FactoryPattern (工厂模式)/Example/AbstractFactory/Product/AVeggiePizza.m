@@ -10,12 +10,8 @@
 
 @implementation AVeggiePizza
 
-- (AIngredientFirst *)first {
-    return self.ingredientFactory.first;
-}
-
-- (AIngredientSecond *)second {
-    return self.ingredientFactory.second;
+- (NSString *)description {
+    return NSStringFromClass(self.class);
 }
 
 @end

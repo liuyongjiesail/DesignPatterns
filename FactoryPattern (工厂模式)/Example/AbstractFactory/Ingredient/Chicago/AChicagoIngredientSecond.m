@@ -10,4 +10,8 @@
 
 @implementation AChicagoIngredientSecond
 
+- (NSString *)description {
+    return @"芝加哥原料二";
+}
+
 @end

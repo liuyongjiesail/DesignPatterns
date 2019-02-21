@@ -10,4 +10,8 @@
 
 @implementation ACheesePizza
 
+- (NSString *)description {
+    return NSStringFromClass(self.class);
+}
+
 @end

@@ -10,4 +10,8 @@
 
 @implementation ANYIngredientSecond
 
+- (NSString *)description {
+    return @"纽约原料二";
+}
+
 @end
