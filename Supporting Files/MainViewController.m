@@ -10,6 +10,9 @@
 #import "PayViewController.h"
 #import "FeedListViewController.h"
 #import "DecorateViewController.h"
+#import "FactoryViewController.h"
+#import "SingletonViewController.h"
+#import "CommandViewController.h"
 
 @interface MainViewController ()
 
@@ -24,7 +27,7 @@
     
     self.title = @"设计模式";
     
-    self.dataArray = @[@"策略模式", @"观察者模式", @"装饰者模式", @"工厂模式"].mutableCopy;
+    self.dataArray = @[@"策略模式", @"观察者模式", @"装饰者模式", @"工厂模式", @"单例模式", @"命令模式"].mutableCopy;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
@@ -60,6 +63,18 @@
         }
         case 2: {
             [self showViewController:[DecorateViewController new] sender:nil];
+            break;
+        }
+        case 3: {
+            [self showViewController:[FactoryViewController new] sender:nil];
+            break;
+        }
+        case 4: {
+            [self showViewController:[SingletonViewController new] sender:nil];
+            break;
+        }
+        case 5: {
+            [self showViewController:[CommandViewController new] sender:nil];
             break;
         }
     }

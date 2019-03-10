@@ -91,6 +91,27 @@
 		ED943A64221E3A9700BBA091 /* AChicagoIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED943A63221E3A9700BBA091 /* AChicagoIngredientFactory.m */; };
 		ED943A67221E3AC600BBA091 /* ANYIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED943A66221E3AC600BBA091 /* ANYIngredientFactory.m */; };
 		ED9B42AE2235309500032EA1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42AD2235309500032EA1 /* Singleton.m */; };
+		ED9B42B4223535CE00032EA1 /* CommandPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED9B42B1223535CE00032EA1 /* CommandPattern.strings */; };
+		ED9B42B822353D1600032EA1 /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42B722353D1600032EA1 /* LightOnCommand.m */; };
+		ED9B42BB22353D4800032EA1 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42BA22353D4800032EA1 /* Light.m */; };
+		ED9B42BE22353F3F00032EA1 /* SimpleRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42BD22353F3F00032EA1 /* SimpleRemoteControl.m */; };
+		ED9B42C42235410A00032EA1 /* GarageDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42C32235410A00032EA1 /* GarageDoor.m */; };
+		ED9B42C72235418D00032EA1 /* GarageDoorOpenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42C62235418D00032EA1 /* GarageDoorOpenCommand.m */; };
+		ED9B42CA223543A200032EA1 /* CeilingFan.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42C9223543A200032EA1 /* CeilingFan.m */; };
+		ED9B42CD223543B200032EA1 /* Stereo.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42CC223543B200032EA1 /* Stereo.m */; };
+		ED9B42D122354A2300032EA1 /* RemoteControlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42D022354A2300032EA1 /* RemoteControlTest.m */; };
+		ED9B42D422354FB000032EA1 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42D322354FB000032EA1 /* RemoteControl.m */; };
+		ED9B42D722354FCF00032EA1 /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42D622354FCF00032EA1 /* NoCommand.m */; };
+		ED9B42DA2235540400032EA1 /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42D92235540400032EA1 /* LightOffCommand.m */; };
+		ED9B42DD22355A1700032EA1 /* GarageDoorDownCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42DC22355A1700032EA1 /* GarageDoorDownCommand.m */; };
+		ED9B42E022355A7C00032EA1 /* CeilingFanOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42DF22355A7C00032EA1 /* CeilingFanOnCommand.m */; };
+		ED9B42E322355B3B00032EA1 /* CeilingFanOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42E222355B3B00032EA1 /* CeilingFanOffCommand.m */; };
+		ED9B42E622355B4900032EA1 /* StereoOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42E522355B4900032EA1 /* StereoOnCommand.m */; };
+		ED9B42E922355B5E00032EA1 /* StereoOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42E822355B5E00032EA1 /* StereoOffCommand.m */; };
+		ED9B42EC2235610F00032EA1 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42EB2235610F00032EA1 /* CommandViewController.m */; };
+		ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42EE2235615D00032EA1 /* SingletonViewController.m */; };
+		ED9B42F2223561E400032EA1 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F1223561E400032EA1 /* FactoryViewController.m */; };
+		ED9B42F52235720100032EA1 /* MacroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F42235720100032EA1 /* MacroCommand.m */; };
 		EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.strings */; };
 /* End PBXBuildFile section */
 
@@ -274,6 +295,48 @@
 		ED943A66221E3AC600BBA091 /* ANYIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYIngredientFactory.m; sourceTree = "<group>"; };
 		ED9B42AC2235309500032EA1 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		ED9B42AD2235309500032EA1 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		ED9B42B1223535CE00032EA1 /* CommandPattern.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = CommandPattern.strings; sourceTree = "<group>"; };
+		ED9B42B522353CE800032EA1 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		ED9B42B622353D1600032EA1 /* LightOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		ED9B42B722353D1600032EA1 /* LightOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		ED9B42B922353D4800032EA1 /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		ED9B42BA22353D4800032EA1 /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		ED9B42BC22353F3F00032EA1 /* SimpleRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleRemoteControl.h; sourceTree = "<group>"; };
+		ED9B42BD22353F3F00032EA1 /* SimpleRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRemoteControl.m; sourceTree = "<group>"; };
+		ED9B42C22235410A00032EA1 /* GarageDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoor.h; sourceTree = "<group>"; };
+		ED9B42C32235410A00032EA1 /* GarageDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoor.m; sourceTree = "<group>"; };
+		ED9B42C52235418D00032EA1 /* GarageDoorOpenCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoorOpenCommand.h; sourceTree = "<group>"; };
+		ED9B42C62235418D00032EA1 /* GarageDoorOpenCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoorOpenCommand.m; sourceTree = "<group>"; };
+		ED9B42C8223543A200032EA1 /* CeilingFan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeilingFan.h; sourceTree = "<group>"; };
+		ED9B42C9223543A200032EA1 /* CeilingFan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeilingFan.m; sourceTree = "<group>"; };
+		ED9B42CB223543B200032EA1 /* Stereo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stereo.h; sourceTree = "<group>"; };
+		ED9B42CC223543B200032EA1 /* Stereo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stereo.m; sourceTree = "<group>"; };
+		ED9B42CF22354A2300032EA1 /* RemoteControlTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteControlTest.h; sourceTree = "<group>"; };
+		ED9B42D022354A2300032EA1 /* RemoteControlTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteControlTest.m; sourceTree = "<group>"; };
+		ED9B42D222354FB000032EA1 /* RemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		ED9B42D322354FB000032EA1 /* RemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		ED9B42D522354FCF00032EA1 /* NoCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
+		ED9B42D622354FCF00032EA1 /* NoCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
+		ED9B42D82235540400032EA1 /* LightOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		ED9B42D92235540400032EA1 /* LightOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		ED9B42DB22355A1700032EA1 /* GarageDoorDownCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoorDownCommand.h; sourceTree = "<group>"; };
+		ED9B42DC22355A1700032EA1 /* GarageDoorDownCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoorDownCommand.m; sourceTree = "<group>"; };
+		ED9B42DE22355A7C00032EA1 /* CeilingFanOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeilingFanOnCommand.h; sourceTree = "<group>"; };
+		ED9B42DF22355A7C00032EA1 /* CeilingFanOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeilingFanOnCommand.m; sourceTree = "<group>"; };
+		ED9B42E122355B3B00032EA1 /* CeilingFanOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeilingFanOffCommand.h; sourceTree = "<group>"; };
+		ED9B42E222355B3B00032EA1 /* CeilingFanOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeilingFanOffCommand.m; sourceTree = "<group>"; };
+		ED9B42E422355B4900032EA1 /* StereoOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StereoOnCommand.h; sourceTree = "<group>"; };
+		ED9B42E522355B4900032EA1 /* StereoOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StereoOnCommand.m; sourceTree = "<group>"; };
+		ED9B42E722355B5E00032EA1 /* StereoOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StereoOffCommand.h; sourceTree = "<group>"; };
+		ED9B42E822355B5E00032EA1 /* StereoOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StereoOffCommand.m; sourceTree = "<group>"; };
+		ED9B42EA2235610F00032EA1 /* CommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		ED9B42EB2235610F00032EA1 /* CommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		ED9B42ED2235615D00032EA1 /* SingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		ED9B42EE2235615D00032EA1 /* SingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		ED9B42F0223561E400032EA1 /* FactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		ED9B42F1223561E400032EA1 /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
+		ED9B42F32235720100032EA1 /* MacroCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroCommand.h; sourceTree = "<group>"; };
+		ED9B42F42235720100032EA1 /* MacroCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroCommand.m; sourceTree = "<group>"; };
 		EDEC21CE21BE93A50088381F /* FactoryPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryPattern.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -304,6 +367,7 @@
 				ED19D89421B9036500D92424 /* DecoratePattern (装饰者模式) */,
 				EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */,
 				ED8855062224137600676B87 /* SingletonPattern（单例模式） */,
+				ED9B42AF223535CE00032EA1 /* CommandPattern（命令模式） */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -610,6 +674,8 @@
 		ED48FE0721C91E03007EE9B9 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				ED9B42F0223561E400032EA1 /* FactoryViewController.h */,
+				ED9B42F1223561E400032EA1 /* FactoryViewController.m */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -728,6 +794,8 @@
 		ED88550D2224144A00676B87 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				ED9B42ED2235615D00032EA1 /* SingletonViewController.h */,
+				ED9B42EE2235615D00032EA1 /* SingletonViewController.m */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -811,6 +879,99 @@
 				ED943A53221E39F500BBA091 /* AChicagoIngredientSecond.m */,
 			);
 			path = Chicago;
+			sourceTree = "<group>";
+		};
+		ED9B42AF223535CE00032EA1 /* CommandPattern（命令模式） */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B42B1223535CE00032EA1 /* CommandPattern.strings */,
+				ED9B42B0223535CE00032EA1 /* Example */,
+				ED9B42B2223535CE00032EA1 /* Practice */,
+			);
+			path = "CommandPattern（命令模式）";
+			sourceTree = "<group>";
+		};
+		ED9B42B0223535CE00032EA1 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B42CE22354A0A00032EA1 /* Test */,
+				ED9B42BF2235408C00032EA1 /* Invoker */,
+				ED9B42C02235409A00032EA1 /* Command */,
+				ED9B42C1223540A300032EA1 /* Receiver */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		ED9B42B2223535CE00032EA1 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B42EA2235610F00032EA1 /* CommandViewController.h */,
+				ED9B42EB2235610F00032EA1 /* CommandViewController.m */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		ED9B42BF2235408C00032EA1 /* Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B42BC22353F3F00032EA1 /* SimpleRemoteControl.h */,
+				ED9B42BD22353F3F00032EA1 /* SimpleRemoteControl.m */,
+				ED9B42D222354FB000032EA1 /* RemoteControl.h */,
+				ED9B42D322354FB000032EA1 /* RemoteControl.m */,
+			);
+			path = Invoker;
+			sourceTree = "<group>";
+		};
+		ED9B42C02235409A00032EA1 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B42B522353CE800032EA1 /* Command.h */,
+				ED9B42D522354FCF00032EA1 /* NoCommand.h */,
+				ED9B42D622354FCF00032EA1 /* NoCommand.m */,
+				ED9B42F32235720100032EA1 /* MacroCommand.h */,
+				ED9B42F42235720100032EA1 /* MacroCommand.m */,
+				ED9B42B622353D1600032EA1 /* LightOnCommand.h */,
+				ED9B42B722353D1600032EA1 /* LightOnCommand.m */,
+				ED9B42D82235540400032EA1 /* LightOffCommand.h */,
+				ED9B42D92235540400032EA1 /* LightOffCommand.m */,
+				ED9B42C52235418D00032EA1 /* GarageDoorOpenCommand.h */,
+				ED9B42C62235418D00032EA1 /* GarageDoorOpenCommand.m */,
+				ED9B42DB22355A1700032EA1 /* GarageDoorDownCommand.h */,
+				ED9B42DC22355A1700032EA1 /* GarageDoorDownCommand.m */,
+				ED9B42DE22355A7C00032EA1 /* CeilingFanOnCommand.h */,
+				ED9B42DF22355A7C00032EA1 /* CeilingFanOnCommand.m */,
+				ED9B42E122355B3B00032EA1 /* CeilingFanOffCommand.h */,
+				ED9B42E222355B3B00032EA1 /* CeilingFanOffCommand.m */,
+				ED9B42E422355B4900032EA1 /* StereoOnCommand.h */,
+				ED9B42E522355B4900032EA1 /* StereoOnCommand.m */,
+				ED9B42E722355B5E00032EA1 /* StereoOffCommand.h */,
+				ED9B42E822355B5E00032EA1 /* StereoOffCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		ED9B42C1223540A300032EA1 /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B42B922353D4800032EA1 /* Light.h */,
+				ED9B42BA22353D4800032EA1 /* Light.m */,
+				ED9B42C22235410A00032EA1 /* GarageDoor.h */,
+				ED9B42C32235410A00032EA1 /* GarageDoor.m */,
+				ED9B42C8223543A200032EA1 /* CeilingFan.h */,
+				ED9B42C9223543A200032EA1 /* CeilingFan.m */,
+				ED9B42CB223543B200032EA1 /* Stereo.h */,
+				ED9B42CC223543B200032EA1 /* Stereo.m */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
+		ED9B42CE22354A0A00032EA1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				ED9B42CF22354A2300032EA1 /* RemoteControlTest.h */,
+				ED9B42D022354A2300032EA1 /* RemoteControlTest.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */ = {
@@ -913,6 +1074,7 @@
 				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
 				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
 				ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */,
+				ED9B42B4223535CE00032EA1 /* CommandPattern.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -932,23 +1094,35 @@
 			files = (
 				ED48FE3B21D10063007EE9B9 /* NYPizzaStore.m in Sources */,
 				ED943A51221E39DB00BBA091 /* AChicagoIngredientFirst.m in Sources */,
+				ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */,
+				ED9B42D722354FCF00032EA1 /* NoCommand.m in Sources */,
+				ED9B42D422354FB000032EA1 /* RemoteControl.m in Sources */,
 				ED943A5A221E3A2700BBA091 /* ANYIngredientFirst.m in Sources */,
+				ED9B42D122354A2300032EA1 /* RemoteControlTest.m in Sources */,
 				ED19D82D21B4E67000D92424 /* FlyNoWay.m in Sources */,
 				ED48FE2821CA7946007EE9B9 /* VeggiePizza.m in Sources */,
 				ED19D82321B4E4A000D92424 /* Duck.m in Sources */,
 				ED943A57221E3A1500BBA091 /* ANYIngredientSecond.m in Sources */,
+				ED9B42DD22355A1700032EA1 /* GarageDoorDownCommand.m in Sources */,
+				ED9B42CA223543A200032EA1 /* CeilingFan.m in Sources */,
 				ED19D87521B685F900D92424 /* FeedListViewController.m in Sources */,
 				ED19D8B821B9572200D92424 /* Soy.m in Sources */,
 				ED48FE5521D1020B007EE9B9 /* ChicagoStyleClamPizza.m in Sources */,
 				ED943A33221D850B00BBA091 /* ABasePizza.m in Sources */,
 				ED48FE3821D0FD92007EE9B9 /* YJPizza.m in Sources */,
+				ED9B42B822353D1600032EA1 /* LightOnCommand.m in Sources */,
 				ED943A30221D84EB00BBA091 /* ABasePizzaStore.m in Sources */,
 				ED48FE3E21D1007F007EE9B9 /* ChicagoPizzaStore.m in Sources */,
 				ED48FE2521CA7939007EE9B9 /* CheesePizza.m in Sources */,
+				ED9B42DA2235540400032EA1 /* LightOffCommand.m in Sources */,
 				ED19D80A21B1618D00D92424 /* main.m in Sources */,
 				ED943A4B221E39AB00BBA091 /* AIngredientFirst.m in Sources */,
+				ED9B42BB22353D4800032EA1 /* Light.m in Sources */,
+				ED9B42EC2235610F00032EA1 /* CommandViewController.m in Sources */,
 				ED48FE2B21CA7953007EE9B9 /* ClamPizza.m in Sources */,
+				ED9B42F2223561E400032EA1 /* FactoryViewController.m in Sources */,
 				ED19D89D21B950A200D92424 /* Beverage.m in Sources */,
+				ED9B42E322355B3B00032EA1 /* CeilingFanOffCommand.m in Sources */,
 				ED943A64221E3A9700BBA091 /* AChicagoIngredientFactory.m in Sources */,
 				ED19D86F21B6723C00D92424 /* StatisticsDisplay.m in Sources */,
 				ED9B42AE2235309500032EA1 /* Singleton.m in Sources */,
@@ -956,12 +1130,14 @@
 				ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */,
 				ED48FE2E21CA7962007EE9B9 /* PepperoniPizza.m in Sources */,
 				ED943A4E221E39BF00BBA091 /* AIngredientSecond.m in Sources */,
+				ED9B42E922355B5E00032EA1 /* StereoOffCommand.m in Sources */,
 				ED19D8A621B953B400D92424 /* Espresso.m in Sources */,
 				ED48FE4321D10117007EE9B9 /* NYStyleCheesePizza.m in Sources */,
 				ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */,
 				ED943A54221E39F500BBA091 /* AChicagoIngredientSecond.m in Sources */,
 				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
 				ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */,
+				ED9B42BE22353F3F00032EA1 /* SimpleRemoteControl.m in Sources */,
 				ED48FE4F21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m in Sources */,
 				ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */,
 				ED19D8B521B956B300D92424 /* Milk.m in Sources */,
@@ -972,7 +1148,9 @@
 				ED19D8A021B9524C00D92424 /* HouseBlend.m in Sources */,
 				ED19D87221B6724A00D92424 /* ForecastDisplay.m in Sources */,
 				ED48FE5221D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m in Sources */,
+				ED9B42CD223543B200032EA1 /* Stereo.m in Sources */,
 				ED19D83021B4E6B900D92424 /* FlyRocketPowered.m in Sources */,
+				ED9B42E622355B4900032EA1 /* StereoOnCommand.m in Sources */,
 				ED19D84721B505BC00D92424 /* PaymentObject.m in Sources */,
 				ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */,
 				ED943A3F221D85B700BBA091 /* APepperoniPizza.m in Sources */,
@@ -990,11 +1168,14 @@
 				ED19D86721B6596F00D92424 /* WeatherData.m in Sources */,
 				ED19D7FC21B1618B00D92424 /* AppDelegate.m in Sources */,
 				ED48FE1B21CA7291007EE9B9 /* PizzaStore.m in Sources */,
+				ED9B42F52235720100032EA1 /* MacroCommand.m in Sources */,
 				ED19D85021B5061200D92424 /* ApplePayment.m in Sources */,
 				ED19D85821B5144F00D92424 /* MainViewController.m in Sources */,
 				ED943A67221E3AC600BBA091 /* ANYIngredientFactory.m in Sources */,
+				ED9B42C72235418D00032EA1 /* GarageDoorOpenCommand.m in Sources */,
 				ED19D8B221B954CE00D92424 /* Mocha.m in Sources */,
 				ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */,
+				ED9B42C42235410A00032EA1 /* GarageDoor.m in Sources */,
 				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
 				ED943A45221D861200BBA091 /* AChicagoPizzaStore.m in Sources */,
 				ED943A61221E3A6300BBA091 /* AIngredientFactory.m in Sources */,
@@ -1002,6 +1183,7 @@
 				ED943A39221D859700BBA091 /* AVeggiePizza.m in Sources */,
 				ED19D8C121BA181600D92424 /* DecorateViewController.m in Sources */,
 				ED943A36221D858700BBA091 /* ACheesePizza.m in Sources */,
+				ED9B42E022355A7C00032EA1 /* CeilingFanOnCommand.m in Sources */,
 				ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */,
 				ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */,
 			);
