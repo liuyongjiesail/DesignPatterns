@@ -1,0 +1,14 @@
+/* 
+  SingletonPattern.strings
+  DesignPatterns
+
+  Created by 刘永杰 on 2019/2/25.
+  Copyright © 2019 刘永杰. All rights reserved.
+ 
+ 单例模式又称单件模式 -- 创建型模式
+ 
+ 确保一个类只有一个实例，并提供一个全局访问点
+
+ 单例是一个比较简单的模式，OC中使用一般使用GCD方式去实现单例
+ 
+*/
