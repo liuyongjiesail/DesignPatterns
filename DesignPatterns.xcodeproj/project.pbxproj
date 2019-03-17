@@ -53,6 +53,9 @@
 		ED19D8B821B9572200D92424 /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8B721B9572200D92424 /* Soy.m */; };
 		ED19D8BB21B9576000D92424 /* Whip.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8BA21B9576000D92424 /* Whip.m */; };
 		ED19D8C121BA181600D92424 /* DecorateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8C021BA181600D92424 /* DecorateViewController.m */; };
+		ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA0223E86140031198C /* AdapterPattern.strings */; };
+		ED2C0AA7223E92640031198C /* EnumerationIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C0AA6223E92640031198C /* EnumerationIterator.m */; };
+		ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA8223E95C70031198C /* FacadePattern.strings */; };
 		ED48FE1B21CA7291007EE9B9 /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE1A21CA7290007EE9B9 /* PizzaStore.m */; };
 		ED48FE1E21CA72A2007EE9B9 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE1D21CA72A2007EE9B9 /* Pizza.m */; };
 		ED48FE2221CA72C6007EE9B9 /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE2121CA72C6007EE9B9 /* SimplePizzaFactory.m */; };
@@ -220,6 +223,12 @@
 		ED19D8BA21B9576000D92424 /* Whip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whip.m; sourceTree = "<group>"; };
 		ED19D8BF21BA181600D92424 /* DecorateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecorateViewController.h; sourceTree = "<group>"; };
 		ED19D8C021BA181600D92424 /* DecorateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorateViewController.m; sourceTree = "<group>"; };
+		ED2C0AA0223E86140031198C /* AdapterPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AdapterPattern.strings; sourceTree = "<group>"; };
+		ED2C0AA3223E91F90031198C /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		ED2C0AA4223E922A0031198C /* Enumeration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enumeration.h; sourceTree = "<group>"; };
+		ED2C0AA5223E92640031198C /* EnumerationIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumerationIterator.h; sourceTree = "<group>"; };
+		ED2C0AA6223E92640031198C /* EnumerationIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumerationIterator.m; sourceTree = "<group>"; };
+		ED2C0AA8223E95C70031198C /* FacadePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FacadePattern.strings; sourceTree = "<group>"; };
 		ED48FE1921CA7290007EE9B9 /* PizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
 		ED48FE1A21CA7290007EE9B9 /* PizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
 		ED48FE1C21CA72A2007EE9B9 /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
@@ -368,6 +377,8 @@
 				EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */,
 				ED8855062224137600676B87 /* SingletonPattern（单例模式） */,
 				ED9B42AF223535CE00032EA1 /* CommandPattern（命令模式） */,
+				ED2C0A9F223E83E70031198C /* AdapterPattern （适配器模式） */,
+				ED2C0A9E223E83E70031198C /* FacadePattern（外观模式） */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -659,6 +670,34 @@
 				ED19D8BA21B9576000D92424 /* Whip.m */,
 			);
 			path = Decorate;
+			sourceTree = "<group>";
+		};
+		ED2C0A9E223E83E70031198C /* FacadePattern（外观模式） */ = {
+			isa = PBXGroup;
+			children = (
+				ED2C0AA8223E95C70031198C /* FacadePattern.strings */,
+			);
+			path = "FacadePattern（外观模式）";
+			sourceTree = "<group>";
+		};
+		ED2C0A9F223E83E70031198C /* AdapterPattern （适配器模式） */ = {
+			isa = PBXGroup;
+			children = (
+				ED2C0AA0223E86140031198C /* AdapterPattern.strings */,
+				ED2C0AA2223E91DF0031198C /* Example */,
+			);
+			path = "AdapterPattern （适配器模式）";
+			sourceTree = "<group>";
+		};
+		ED2C0AA2223E91DF0031198C /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED2C0AA3223E91F90031198C /* Iterator.h */,
+				ED2C0AA4223E922A0031198C /* Enumeration.h */,
+				ED2C0AA5223E92640031198C /* EnumerationIterator.h */,
+				ED2C0AA6223E92640031198C /* EnumerationIterator.m */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 		ED48FE0621C91DE3007EE9B9 /* Example */ = {
@@ -1065,8 +1104,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED19D88C21B7B6D100D92424 /* PracticeDescription.strings in Resources */,
+				ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */,
 				ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */,
 				ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */,
+				ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */,
 				EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */,
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
 				ED8855092224142800676B87 /* SingletonPattern.strings in Resources */,
@@ -1163,6 +1204,7 @@
 				ED19D8AC21B9547400D92424 /* CondimentDecorator.m in Sources */,
 				ED48FE4621D10130007EE9B9 /* NYStyleVeggiePizza.m in Sources */,
 				ED19D87B21B763E400D92424 /* FeedModel.m in Sources */,
+				ED2C0AA7223E92640031198C /* EnumerationIterator.m in Sources */,
 				ED19D8A921B953E400D92424 /* Decaf.m in Sources */,
 				ED19D84A21B505E300D92424 /* Alipayment.m in Sources */,
 				ED19D86721B6596F00D92424 /* WeatherData.m in Sources */,
