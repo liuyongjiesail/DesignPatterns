@@ -115,6 +115,8 @@
 		ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42EE2235615D00032EA1 /* SingletonViewController.m */; };
 		ED9B42F2223561E400032EA1 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F1223561E400032EA1 /* FactoryViewController.m */; };
 		ED9B42F52235720100032EA1 /* MacroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F42235720100032EA1 /* MacroCommand.m */; };
+		EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */; };
+		EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD245B52247CF40008D6016 /* AbstractClass.m */; };
 		EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.strings */; };
 /* End PBXBuildFile section */
 
@@ -346,6 +348,9 @@
 		ED9B42F1223561E400032EA1 /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
 		ED9B42F32235720100032EA1 /* MacroCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroCommand.h; sourceTree = "<group>"; };
 		ED9B42F42235720100032EA1 /* MacroCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroCommand.m; sourceTree = "<group>"; };
+		EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TemplateMethodPattern.strings; sourceTree = "<group>"; };
+		EDD245B42247CF40008D6016 /* AbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
+		EDD245B52247CF40008D6016 /* AbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
 		EDEC21CE21BE93A50088381F /* FactoryPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryPattern.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -379,6 +384,7 @@
 				ED9B42AF223535CE00032EA1 /* CommandPattern（命令模式） */,
 				ED2C0A9F223E83E70031198C /* AdapterPattern （适配器模式） */,
 				ED2C0A9E223E83E70031198C /* FacadePattern（外观模式） */,
+				EDD245B02247C6CA008D6016 /* TemplateMethodPattern (模板方法模式) */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -1013,6 +1019,24 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		EDD245B02247C6CA008D6016 /* TemplateMethodPattern (模板方法模式) */ = {
+			isa = PBXGroup;
+			children = (
+				EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */,
+				EDD245B32247CF17008D6016 /* Example */,
+			);
+			path = "TemplateMethodPattern (模板方法模式)";
+			sourceTree = "<group>";
+		};
+		EDD245B32247CF17008D6016 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDD245B42247CF40008D6016 /* AbstractClass.h */,
+				EDD245B52247CF40008D6016 /* AbstractClass.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1109,6 +1133,7 @@
 				ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */,
 				ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */,
 				EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */,
+				EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */,
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
 				ED8855092224142800676B87 /* SingletonPattern.strings in Resources */,
 				ED19D89621B949A100D92424 /* DecoratePattern.strings in Resources */,
@@ -1217,6 +1242,7 @@
 				ED9B42C72235418D00032EA1 /* GarageDoorOpenCommand.m in Sources */,
 				ED19D8B221B954CE00D92424 /* Mocha.m in Sources */,
 				ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */,
+				EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */,
 				ED9B42C42235410A00032EA1 /* GarageDoor.m in Sources */,
 				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
 				ED943A45221D861200BBA091 /* AChicagoPizzaStore.m in Sources */,
