@@ -1,0 +1,18 @@
+/* 
+  IteratorPattern.strings
+  DesignPatterns
+
+  Created by 刘永杰 on 2019/3/31.
+  Copyright © 2019 刘永杰. All rights reserved.
+ 
+ 迭代器模式
+ 
+ 定义：迭代器模式提供了一种方法顺序访问聚合对象中的各个元素，而又不暴露其内部表示。把游走的任务放在迭代器上，而不是聚合上。这样简化了聚合的接口和实现，也让责任各得其所
+ 
+ Aggregate<Interface>: 有一个共同的接口供所有的聚合使用，这对客户代码是很方便的；将客户代码从集合对象的实现解耦了
+ ConcreteAggregate: 这个具体聚合持有一个对象的集合，并实现一个方法，利用此方法返回集合的迭代器。每一个具体聚合都要负责实例化一个具体迭代器，此迭代器能够遍历对象集合
+ Client；场景类
+ Iterator<Interface>: 这是所有迭代器都必须实现的接口，它包含一些方法，利用这些方法可以在集合元素之间游走
+ ConcreteInterator: 这个具体的迭代器负责管理目前遍历的位置
+ 
+*/

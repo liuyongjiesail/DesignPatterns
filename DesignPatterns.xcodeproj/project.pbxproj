@@ -56,6 +56,10 @@
 		ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA0223E86140031198C /* AdapterPattern.strings */; };
 		ED2C0AA7223E92640031198C /* EnumerationIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C0AA6223E92640031198C /* EnumerationIterator.m */; };
 		ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA8223E95C70031198C /* FacadePattern.strings */; };
+		ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED47279D2250F6D5000C5492 /* IteratorPattern.strings */; };
+		ED4727A62250FD3C000C5492 /* PancakeHouseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A52250FD3C000C5492 /* PancakeHouseMenu.m */; };
+		ED4727A92250FD5F000C5492 /* DinerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A82250FD5F000C5492 /* DinerMenu.m */; };
+		ED4727AC2250FE78000C5492 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727AB2250FE77000C5492 /* MenuItem.m */; };
 		ED48FE1B21CA7291007EE9B9 /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE1A21CA7290007EE9B9 /* PizzaStore.m */; };
 		ED48FE1E21CA72A2007EE9B9 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE1D21CA72A2007EE9B9 /* Pizza.m */; };
 		ED48FE2221CA72C6007EE9B9 /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE2121CA72C6007EE9B9 /* SimplePizzaFactory.m */; };
@@ -76,6 +80,13 @@
 		ED48FE5521D1020B007EE9B9 /* ChicagoStyleClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5421D1020B007EE9B9 /* ChicagoStyleClamPizza.m */; };
 		ED48FE5821D10223007EE9B9 /* ChicagoStylePepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */; };
 		ED8855092224142800676B87 /* SingletonPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8855082224142800676B87 /* SingletonPattern.strings */; };
+		ED91392B225106730071A15B /* FoodCourt.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392A225106730071A15B /* FoodCourt.m */; };
+		ED91392E225106850071A15B /* Waitress.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392D225106850071A15B /* Waitress.m */; };
+		ED913935225107140071A15B /* PancakeHouseMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED913934225107140071A15B /* PancakeHouseMenuIterator.m */; };
+		ED913938225107230071A15B /* DinerMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED913937225107230071A15B /* DinerMenuIterator.m */; };
+		ED91393B2251127F0071A15B /* CafeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91393A2251127F0071A15B /* CafeMenu.m */; };
+		ED91393E2251140E0071A15B /* CafeMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91393D2251140E0071A15B /* CafeMenuIterator.m */; };
+		ED913942225115BE0071A15B /* IteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED913941225115BE0071A15B /* IteratorViewController.m */; };
 		ED943A30221D84EB00BBA091 /* ABasePizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED943A2F221D84EB00BBA091 /* ABasePizzaStore.m */; };
 		ED943A33221D850B00BBA091 /* ABasePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED943A32221D850B00BBA091 /* ABasePizza.m */; };
 		ED943A36221D858700BBA091 /* ACheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED943A35221D858700BBA091 /* ACheesePizza.m */; };
@@ -231,6 +242,14 @@
 		ED2C0AA5223E92640031198C /* EnumerationIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumerationIterator.h; sourceTree = "<group>"; };
 		ED2C0AA6223E92640031198C /* EnumerationIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumerationIterator.m; sourceTree = "<group>"; };
 		ED2C0AA8223E95C70031198C /* FacadePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FacadePattern.strings; sourceTree = "<group>"; };
+		ED47279D2250F6D5000C5492 /* IteratorPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = IteratorPattern.strings; sourceTree = "<group>"; };
+		ED4727A32250FD24000C5492 /* MenuInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuInterface.h; sourceTree = "<group>"; };
+		ED4727A42250FD3C000C5492 /* PancakeHouseMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeHouseMenu.h; sourceTree = "<group>"; };
+		ED4727A52250FD3C000C5492 /* PancakeHouseMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PancakeHouseMenu.m; sourceTree = "<group>"; };
+		ED4727A72250FD5F000C5492 /* DinerMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DinerMenu.h; sourceTree = "<group>"; };
+		ED4727A82250FD5F000C5492 /* DinerMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinerMenu.m; sourceTree = "<group>"; };
+		ED4727AA2250FE77000C5492 /* MenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		ED4727AB2250FE77000C5492 /* MenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
 		ED48FE1921CA7290007EE9B9 /* PizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
 		ED48FE1A21CA7290007EE9B9 /* PizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
 		ED48FE1C21CA72A2007EE9B9 /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
@@ -270,6 +289,21 @@
 		ED48FE5621D10223007EE9B9 /* ChicagoStylePepperoniPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStylePepperoniPizza.h; sourceTree = "<group>"; };
 		ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStylePepperoniPizza.m; sourceTree = "<group>"; };
 		ED8855082224142800676B87 /* SingletonPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SingletonPattern.strings; sourceTree = "<group>"; };
+		ED913929225106730071A15B /* FoodCourt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodCourt.h; sourceTree = "<group>"; };
+		ED91392A225106730071A15B /* FoodCourt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodCourt.m; sourceTree = "<group>"; };
+		ED91392C225106850071A15B /* Waitress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waitress.h; sourceTree = "<group>"; };
+		ED91392D225106850071A15B /* Waitress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waitress.m; sourceTree = "<group>"; };
+		ED913932225106EB0071A15B /* IteratorInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IteratorInterface.h; sourceTree = "<group>"; };
+		ED913933225107140071A15B /* PancakeHouseMenuIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeHouseMenuIterator.h; sourceTree = "<group>"; };
+		ED913934225107140071A15B /* PancakeHouseMenuIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PancakeHouseMenuIterator.m; sourceTree = "<group>"; };
+		ED913936225107230071A15B /* DinerMenuIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DinerMenuIterator.h; sourceTree = "<group>"; };
+		ED913937225107230071A15B /* DinerMenuIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinerMenuIterator.m; sourceTree = "<group>"; };
+		ED9139392251127F0071A15B /* CafeMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CafeMenu.h; sourceTree = "<group>"; };
+		ED91393A2251127F0071A15B /* CafeMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafeMenu.m; sourceTree = "<group>"; };
+		ED91393C2251140E0071A15B /* CafeMenuIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CafeMenuIterator.h; sourceTree = "<group>"; };
+		ED91393D2251140E0071A15B /* CafeMenuIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafeMenuIterator.m; sourceTree = "<group>"; };
+		ED913940225115BE0071A15B /* IteratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IteratorViewController.h; sourceTree = "<group>"; };
+		ED913941225115BE0071A15B /* IteratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IteratorViewController.m; sourceTree = "<group>"; };
 		ED943A2E221D84EB00BBA091 /* ABasePizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABasePizzaStore.h; sourceTree = "<group>"; };
 		ED943A2F221D84EB00BBA091 /* ABasePizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABasePizzaStore.m; sourceTree = "<group>"; };
 		ED943A31221D850B00BBA091 /* ABasePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABasePizza.h; sourceTree = "<group>"; };
@@ -385,6 +419,7 @@
 				ED2C0A9F223E83E70031198C /* AdapterPattern （适配器模式） */,
 				ED2C0A9E223E83E70031198C /* FacadePattern（外观模式） */,
 				EDD245B02247C6CA008D6016 /* TemplateMethodPattern (模板方法模式) */,
+				EDD245B72247D814008D6016 /* IteratorPattern (迭代器模式) */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -706,6 +741,16 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		ED47279F2250F7A8000C5492 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED913928225106090071A15B /* FoodCourt */,
+				ED913927225105AA0071A15B /* Iterator */,
+				ED9139262251059B0071A15B /* Menu */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		ED48FE0621C91DE3007EE9B9 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -841,6 +886,56 @@
 			children = (
 				ED9B42ED2235615D00032EA1 /* SingletonViewController.h */,
 				ED9B42EE2235615D00032EA1 /* SingletonViewController.m */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		ED9139262251059B0071A15B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ED4727AA2250FE77000C5492 /* MenuItem.h */,
+				ED4727AB2250FE77000C5492 /* MenuItem.m */,
+				ED4727A32250FD24000C5492 /* MenuInterface.h */,
+				ED4727A42250FD3C000C5492 /* PancakeHouseMenu.h */,
+				ED4727A52250FD3C000C5492 /* PancakeHouseMenu.m */,
+				ED4727A72250FD5F000C5492 /* DinerMenu.h */,
+				ED4727A82250FD5F000C5492 /* DinerMenu.m */,
+				ED9139392251127F0071A15B /* CafeMenu.h */,
+				ED91393A2251127F0071A15B /* CafeMenu.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		ED913927225105AA0071A15B /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				ED913932225106EB0071A15B /* IteratorInterface.h */,
+				ED913933225107140071A15B /* PancakeHouseMenuIterator.h */,
+				ED913934225107140071A15B /* PancakeHouseMenuIterator.m */,
+				ED913936225107230071A15B /* DinerMenuIterator.h */,
+				ED913937225107230071A15B /* DinerMenuIterator.m */,
+				ED91393C2251140E0071A15B /* CafeMenuIterator.h */,
+				ED91393D2251140E0071A15B /* CafeMenuIterator.m */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		ED913928225106090071A15B /* FoodCourt */ = {
+			isa = PBXGroup;
+			children = (
+				ED913929225106730071A15B /* FoodCourt.h */,
+				ED91392A225106730071A15B /* FoodCourt.m */,
+				ED91392C225106850071A15B /* Waitress.h */,
+				ED91392D225106850071A15B /* Waitress.m */,
+			);
+			path = FoodCourt;
+			sourceTree = "<group>";
+		};
+		ED91393F225115A70071A15B /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				ED913940225115BE0071A15B /* IteratorViewController.h */,
+				ED913941225115BE0071A15B /* IteratorViewController.m */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -1037,6 +1132,16 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		EDD245B72247D814008D6016 /* IteratorPattern (迭代器模式) */ = {
+			isa = PBXGroup;
+			children = (
+				ED47279D2250F6D5000C5492 /* IteratorPattern.strings */,
+				ED47279F2250F7A8000C5492 /* Example */,
+				ED91393F225115A70071A15B /* Practice */,
+			);
+			path = "IteratorPattern (迭代器模式)";
+			sourceTree = "<group>";
+		};
 		EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1140,6 +1245,7 @@
 				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
 				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
 				ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */,
+				ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */,
 				ED9B42B4223535CE00032EA1 /* CommandPattern.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1191,9 +1297,11 @@
 				ED9B42E322355B3B00032EA1 /* CeilingFanOffCommand.m in Sources */,
 				ED943A64221E3A9700BBA091 /* AChicagoIngredientFactory.m in Sources */,
 				ED19D86F21B6723C00D92424 /* StatisticsDisplay.m in Sources */,
+				ED91393B2251127F0071A15B /* CafeMenu.m in Sources */,
 				ED9B42AE2235309500032EA1 /* Singleton.m in Sources */,
 				ED48FE5821D10223007EE9B9 /* ChicagoStylePepperoniPizza.m in Sources */,
 				ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */,
+				ED91392E225106850071A15B /* Waitress.m in Sources */,
 				ED48FE2E21CA7962007EE9B9 /* PepperoniPizza.m in Sources */,
 				ED943A4E221E39BF00BBA091 /* AIngredientSecond.m in Sources */,
 				ED9B42E922355B5E00032EA1 /* StereoOffCommand.m in Sources */,
@@ -1203,7 +1311,9 @@
 				ED943A54221E39F500BBA091 /* AChicagoIngredientSecond.m in Sources */,
 				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
 				ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */,
+				ED4727AC2250FE78000C5492 /* MenuItem.m in Sources */,
 				ED9B42BE22353F3F00032EA1 /* SimpleRemoteControl.m in Sources */,
+				ED91392B225106730071A15B /* FoodCourt.m in Sources */,
 				ED48FE4F21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m in Sources */,
 				ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */,
 				ED19D8B521B956B300D92424 /* Milk.m in Sources */,
@@ -1222,7 +1332,9 @@
 				ED943A3F221D85B700BBA091 /* APepperoniPizza.m in Sources */,
 				ED48FE1E21CA72A2007EE9B9 /* Pizza.m in Sources */,
 				ED19D8BB21B9576000D92424 /* Whip.m in Sources */,
+				ED913942225115BE0071A15B /* IteratorViewController.m in Sources */,
 				ED48FE2221CA72C6007EE9B9 /* SimplePizzaFactory.m in Sources */,
+				ED4727A92250FD5F000C5492 /* DinerMenu.m in Sources */,
 				ED48FE3521D0FD81007EE9B9 /* YJPizzaStore.m in Sources */,
 				ED48FE4C21D1015B007EE9B9 /* NYStylePepperoniPizza.m in Sources */,
 				ED943A42221D85FC00BBA091 /* ANYPizzaStore.m in Sources */,
@@ -1236,11 +1348,14 @@
 				ED19D7FC21B1618B00D92424 /* AppDelegate.m in Sources */,
 				ED48FE1B21CA7291007EE9B9 /* PizzaStore.m in Sources */,
 				ED9B42F52235720100032EA1 /* MacroCommand.m in Sources */,
+				ED91393E2251140E0071A15B /* CafeMenuIterator.m in Sources */,
 				ED19D85021B5061200D92424 /* ApplePayment.m in Sources */,
+				ED913935225107140071A15B /* PancakeHouseMenuIterator.m in Sources */,
 				ED19D85821B5144F00D92424 /* MainViewController.m in Sources */,
 				ED943A67221E3AC600BBA091 /* ANYIngredientFactory.m in Sources */,
 				ED9B42C72235418D00032EA1 /* GarageDoorOpenCommand.m in Sources */,
 				ED19D8B221B954CE00D92424 /* Mocha.m in Sources */,
+				ED913938225107230071A15B /* DinerMenuIterator.m in Sources */,
 				ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */,
 				EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */,
 				ED9B42C42235410A00032EA1 /* GarageDoor.m in Sources */,
@@ -1250,6 +1365,7 @@
 				ED19D83321B4E73D00D92424 /* Quack.m in Sources */,
 				ED943A39221D859700BBA091 /* AVeggiePizza.m in Sources */,
 				ED19D8C121BA181600D92424 /* DecorateViewController.m in Sources */,
+				ED4727A62250FD3C000C5492 /* PancakeHouseMenu.m in Sources */,
 				ED943A36221D858700BBA091 /* ACheesePizza.m in Sources */,
 				ED9B42E022355A7C00032EA1 /* CeilingFanOnCommand.m in Sources */,
 				ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */,
@@ -1413,6 +1529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9842T9339;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1430,6 +1547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9842T9339;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
