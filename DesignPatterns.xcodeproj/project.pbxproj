@@ -410,16 +410,16 @@
 			isa = PBXGroup;
 			children = (
 				ED19D85921B5170200D92424 /* OODesignPrinciple.strings */,
-				ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */,
-				ED19D85D21B55E0600D92424 /* ObserverPattern（观察者模式） */,
-				ED19D89421B9036500D92424 /* DecoratePattern (装饰者模式) */,
-				EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */,
-				ED8855062224137600676B87 /* SingletonPattern（单例模式） */,
-				ED9B42AF223535CE00032EA1 /* CommandPattern（命令模式） */,
-				ED2C0A9F223E83E70031198C /* AdapterPattern （适配器模式） */,
-				ED2C0A9E223E83E70031198C /* FacadePattern（外观模式） */,
-				EDD245B02247C6CA008D6016 /* TemplateMethodPattern (模板方法模式) */,
-				EDD245B72247D814008D6016 /* IteratorPattern (迭代器模式) */,
+				ED19D81E21B4E28100D92424 /* StrategyPattern */,
+				ED19D85D21B55E0600D92424 /* ObserverPattern */,
+				ED19D89421B9036500D92424 /* DecoratePattern */,
+				EDEC21CD21BE93230088381F /* FactoryPattern */,
+				ED8855062224137600676B87 /* SingletonPattern */,
+				ED9B42AF223535CE00032EA1 /* CommandPattern */,
+				ED2C0A9F223E83E70031198C /* AdapterPattern */,
+				ED2C0A9E223E83E70031198C /* FacadePattern */,
+				EDD245B02247C6CA008D6016 /* TemplateMethodPattern */,
+				EDD245B72247D814008D6016 /* IteratorPattern */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -443,14 +443,14 @@
 			path = DesignPatternsTests;
 			sourceTree = "<group>";
 		};
-		ED19D81E21B4E28100D92424 /* StrategyPattern（策略模式） */ = {
+		ED19D81E21B4E28100D92424 /* StrategyPattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED19D85B21B5190D00D92424 /* StrategyPattern.strings */,
-				ED19D84021B504E800D92424 /* Example（示例） */,
-				ED19D84121B504F800D92424 /* Practice（实践） */,
+				ED19D84021B504E800D92424 /* Example */,
+				ED19D84121B504F800D92424 /* Practice */,
 			);
-			path = "StrategyPattern（策略模式）";
+			path = StrategyPattern;
 			sourceTree = "<group>";
 		};
 		ED19D81F21B4E29A00D92424 /* Supporting Files */ = {
@@ -498,7 +498,7 @@
 			path = QuackBehavior;
 			sourceTree = "<group>";
 		};
-		ED19D84021B504E800D92424 /* Example（示例） */ = {
+		ED19D84021B504E800D92424 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				ED19D82121B4E4A000D92424 /* Duck.h */,
@@ -510,10 +510,10 @@
 				ED19D82A21B4E65100D92424 /* QuackBehavior */,
 				ED19D82921B4E64200D92424 /* FlyBehavior */,
 			);
-			path = "Example（示例）";
+			path = Example;
 			sourceTree = "<group>";
 		};
-		ED19D84121B504F800D92424 /* Practice（实践） */ = {
+		ED19D84121B504F800D92424 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
 				ED19D84221B5054F00D92424 /* PayViewController.h */,
@@ -523,7 +523,7 @@
 				ED19D85521B5069900D92424 /* PaymentInterface.h */,
 				ED19D85121B5062100D92424 /* PaymentStyle */,
 			);
-			path = "Practice（实践）";
+			path = Practice;
 			sourceTree = "<group>";
 		};
 		ED19D85121B5062100D92424 /* PaymentStyle */ = {
@@ -563,14 +563,14 @@
 			path = ApplePay;
 			sourceTree = "<group>";
 		};
-		ED19D85D21B55E0600D92424 /* ObserverPattern（观察者模式） */ = {
+		ED19D85D21B55E0600D92424 /* ObserverPattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED19D85E21B5605200D92424 /* ObserverPattern.strings */,
 				ED19D86021B6115100D92424 /* Example */,
 				ED19D86121B6115A00D92424 /* Practice */,
 			);
-			path = "ObserverPattern（观察者模式）";
+			path = ObserverPattern;
 			sourceTree = "<group>";
 		};
 		ED19D86021B6115100D92424 /* Example */ = {
@@ -651,14 +651,14 @@
 			path = "View (Observer)";
 			sourceTree = "<group>";
 		};
-		ED19D89421B9036500D92424 /* DecoratePattern (装饰者模式) */ = {
+		ED19D89421B9036500D92424 /* DecoratePattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED19D89521B949A100D92424 /* DecoratePattern.strings */,
 				ED19D89721B94DF400D92424 /* Example */,
 				ED19D89821B94E0800D92424 /* Practice */,
 			);
-			path = "DecoratePattern (装饰者模式)";
+			path = DecoratePattern;
 			sourceTree = "<group>";
 		};
 		ED19D89721B94DF400D92424 /* Example */ = {
@@ -713,21 +713,21 @@
 			path = Decorate;
 			sourceTree = "<group>";
 		};
-		ED2C0A9E223E83E70031198C /* FacadePattern（外观模式） */ = {
+		ED2C0A9E223E83E70031198C /* FacadePattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED2C0AA8223E95C70031198C /* FacadePattern.strings */,
 			);
-			path = "FacadePattern（外观模式）";
+			path = FacadePattern;
 			sourceTree = "<group>";
 		};
-		ED2C0A9F223E83E70031198C /* AdapterPattern （适配器模式） */ = {
+		ED2C0A9F223E83E70031198C /* AdapterPattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED2C0AA0223E86140031198C /* AdapterPattern.strings */,
 				ED2C0AA2223E91DF0031198C /* Example */,
 			);
-			path = "AdapterPattern （适配器模式）";
+			path = AdapterPattern;
 			sourceTree = "<group>";
 		};
 		ED2C0AA2223E91DF0031198C /* Example */ = {
@@ -862,14 +862,14 @@
 			path = Chicago;
 			sourceTree = "<group>";
 		};
-		ED8855062224137600676B87 /* SingletonPattern（单例模式） */ = {
+		ED8855062224137600676B87 /* SingletonPattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED8855082224142800676B87 /* SingletonPattern.strings */,
 				ED88550C2224144200676B87 /* Example */,
 				ED88550D2224144A00676B87 /* Practice */,
 			);
-			path = "SingletonPattern（单例模式）";
+			path = SingletonPattern;
 			sourceTree = "<group>";
 		};
 		ED88550C2224144200676B87 /* Example */ = {
@@ -1021,14 +1021,14 @@
 			path = Chicago;
 			sourceTree = "<group>";
 		};
-		ED9B42AF223535CE00032EA1 /* CommandPattern（命令模式） */ = {
+		ED9B42AF223535CE00032EA1 /* CommandPattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED9B42B1223535CE00032EA1 /* CommandPattern.strings */,
 				ED9B42B0223535CE00032EA1 /* Example */,
 				ED9B42B2223535CE00032EA1 /* Practice */,
 			);
-			path = "CommandPattern（命令模式）";
+			path = CommandPattern;
 			sourceTree = "<group>";
 		};
 		ED9B42B0223535CE00032EA1 /* Example */ = {
@@ -1114,13 +1114,13 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
-		EDD245B02247C6CA008D6016 /* TemplateMethodPattern (模板方法模式) */ = {
+		EDD245B02247C6CA008D6016 /* TemplateMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
 				EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */,
 				EDD245B32247CF17008D6016 /* Example */,
 			);
-			path = "TemplateMethodPattern (模板方法模式)";
+			path = TemplateMethodPattern;
 			sourceTree = "<group>";
 		};
 		EDD245B32247CF17008D6016 /* Example */ = {
@@ -1132,24 +1132,24 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		EDD245B72247D814008D6016 /* IteratorPattern (迭代器模式) */ = {
+		EDD245B72247D814008D6016 /* IteratorPattern */ = {
 			isa = PBXGroup;
 			children = (
 				ED47279D2250F6D5000C5492 /* IteratorPattern.strings */,
 				ED47279F2250F7A8000C5492 /* Example */,
 				ED91393F225115A70071A15B /* Practice */,
 			);
-			path = "IteratorPattern (迭代器模式)";
+			path = IteratorPattern;
 			sourceTree = "<group>";
 		};
-		EDEC21CD21BE93230088381F /* FactoryPattern (工厂模式) */ = {
+		EDEC21CD21BE93230088381F /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
 				EDEC21CE21BE93A50088381F /* FactoryPattern.strings */,
 				ED48FE0621C91DE3007EE9B9 /* Example */,
 				ED48FE0721C91E03007EE9B9 /* Practice */,
 			);
-			path = "FactoryPattern (工厂模式)";
+			path = FactoryPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
