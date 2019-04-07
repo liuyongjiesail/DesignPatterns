@@ -56,6 +56,17 @@
 		ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA0223E86140031198C /* AdapterPattern.strings */; };
 		ED2C0AA7223E92640031198C /* EnumerationIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C0AA6223E92640031198C /* EnumerationIterator.m */; };
 		ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA8223E95C70031198C /* FacadePattern.strings */; };
+		ED2CE7E2225900C10065051D /* CompositePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2CE7E1225900C10065051D /* CompositePattern.strings */; };
+		ED2CE7E5225A18B10065051D /* MenuComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7E4225A18B10065051D /* MenuComponent.m */; };
+		ED2CE7E8225A19DA0065051D /* CPMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7E7225A19DA0065051D /* CPMenuItem.m */; };
+		ED2CE7EB225A1AB90065051D /* CPMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7EA225A1AB90065051D /* CPMenu.m */; };
+		ED2CE7F0225A1F270065051D /* CPWaitress.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7EF225A1F270065051D /* CPWaitress.m */; };
+		ED2CE7F3225A1FF20065051D /* CPFoodCourt.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7F2225A1FF20065051D /* CPFoodCourt.m */; };
+		ED2CE7F6225A221C0065051D /* CPPancakeHouseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7F5225A221C0065051D /* CPPancakeHouseMenu.m */; };
+		ED2CE7F9225A22380065051D /* CPDinerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7F8225A22380065051D /* CPDinerMenu.m */; };
+		ED2CE7FF225A225A0065051D /* CPCafeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7FE225A225A0065051D /* CPCafeMenu.m */; };
+		ED2CE802225A22700065051D /* CPDessertMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE801225A22700065051D /* CPDessertMenu.m */; };
+		ED2CE807225A26240065051D /* CompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE806225A26240065051D /* CompositeViewController.m */; };
 		ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED47279D2250F6D5000C5492 /* IteratorPattern.strings */; };
 		ED4727A62250FD3C000C5492 /* PancakeHouseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A52250FD3C000C5492 /* PancakeHouseMenu.m */; };
 		ED4727A92250FD5F000C5492 /* DinerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A82250FD5F000C5492 /* DinerMenu.m */; };
@@ -242,6 +253,27 @@
 		ED2C0AA5223E92640031198C /* EnumerationIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumerationIterator.h; sourceTree = "<group>"; };
 		ED2C0AA6223E92640031198C /* EnumerationIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumerationIterator.m; sourceTree = "<group>"; };
 		ED2C0AA8223E95C70031198C /* FacadePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FacadePattern.strings; sourceTree = "<group>"; };
+		ED2CE7E1225900C10065051D /* CompositePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CompositePattern.strings; sourceTree = "<group>"; };
+		ED2CE7E3225A18B10065051D /* MenuComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuComponent.h; sourceTree = "<group>"; };
+		ED2CE7E4225A18B10065051D /* MenuComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuComponent.m; sourceTree = "<group>"; };
+		ED2CE7E6225A19DA0065051D /* CPMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPMenuItem.h; sourceTree = "<group>"; };
+		ED2CE7E7225A19DA0065051D /* CPMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPMenuItem.m; sourceTree = "<group>"; };
+		ED2CE7E9225A1AB90065051D /* CPMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPMenu.h; sourceTree = "<group>"; };
+		ED2CE7EA225A1AB90065051D /* CPMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPMenu.m; sourceTree = "<group>"; };
+		ED2CE7EE225A1F270065051D /* CPWaitress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPWaitress.h; sourceTree = "<group>"; };
+		ED2CE7EF225A1F270065051D /* CPWaitress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPWaitress.m; sourceTree = "<group>"; };
+		ED2CE7F1225A1FF20065051D /* CPFoodCourt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPFoodCourt.h; sourceTree = "<group>"; };
+		ED2CE7F2225A1FF20065051D /* CPFoodCourt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPFoodCourt.m; sourceTree = "<group>"; };
+		ED2CE7F4225A221C0065051D /* CPPancakeHouseMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPancakeHouseMenu.h; sourceTree = "<group>"; };
+		ED2CE7F5225A221C0065051D /* CPPancakeHouseMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPPancakeHouseMenu.m; sourceTree = "<group>"; };
+		ED2CE7F7225A22380065051D /* CPDinerMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDinerMenu.h; sourceTree = "<group>"; };
+		ED2CE7F8225A22380065051D /* CPDinerMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDinerMenu.m; sourceTree = "<group>"; };
+		ED2CE7FD225A225A0065051D /* CPCafeMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCafeMenu.h; sourceTree = "<group>"; };
+		ED2CE7FE225A225A0065051D /* CPCafeMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPCafeMenu.m; sourceTree = "<group>"; };
+		ED2CE800225A22700065051D /* CPDessertMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDessertMenu.h; sourceTree = "<group>"; };
+		ED2CE801225A22700065051D /* CPDessertMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDessertMenu.m; sourceTree = "<group>"; };
+		ED2CE805225A26240065051D /* CompositeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeViewController.h; sourceTree = "<group>"; };
+		ED2CE806225A26240065051D /* CompositeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeViewController.m; sourceTree = "<group>"; };
 		ED47279D2250F6D5000C5492 /* IteratorPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = IteratorPattern.strings; sourceTree = "<group>"; };
 		ED4727A32250FD24000C5492 /* MenuInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuInterface.h; sourceTree = "<group>"; };
 		ED4727A42250FD3C000C5492 /* PancakeHouseMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeHouseMenu.h; sourceTree = "<group>"; };
@@ -420,6 +452,7 @@
 				ED2C0A9E223E83E70031198C /* FacadePattern */,
 				EDD245B02247C6CA008D6016 /* TemplateMethodPattern */,
 				EDD245B72247D814008D6016 /* IteratorPattern */,
+				ED2CE7E02259004C0065051D /* CompositePattern */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -739,6 +772,66 @@
 				ED2C0AA6223E92640031198C /* EnumerationIterator.m */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		ED2CE7E02259004C0065051D /* CompositePattern */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CE7E1225900C10065051D /* CompositePattern.strings */,
+				ED2CE803225A25FB0065051D /* Example */,
+				ED2CE804225A26080065051D /* Practice */,
+			);
+			path = CompositePattern;
+			sourceTree = "<group>";
+		};
+		ED2CE7EC225A1EE00065051D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CE7E3225A18B10065051D /* MenuComponent.h */,
+				ED2CE7E4225A18B10065051D /* MenuComponent.m */,
+				ED2CE7E6225A19DA0065051D /* CPMenuItem.h */,
+				ED2CE7E7225A19DA0065051D /* CPMenuItem.m */,
+				ED2CE7E9225A1AB90065051D /* CPMenu.h */,
+				ED2CE7EA225A1AB90065051D /* CPMenu.m */,
+				ED2CE7F4225A221C0065051D /* CPPancakeHouseMenu.h */,
+				ED2CE7F5225A221C0065051D /* CPPancakeHouseMenu.m */,
+				ED2CE7F7225A22380065051D /* CPDinerMenu.h */,
+				ED2CE7F8225A22380065051D /* CPDinerMenu.m */,
+				ED2CE7FD225A225A0065051D /* CPCafeMenu.h */,
+				ED2CE7FE225A225A0065051D /* CPCafeMenu.m */,
+				ED2CE800225A22700065051D /* CPDessertMenu.h */,
+				ED2CE801225A22700065051D /* CPDessertMenu.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		ED2CE7ED225A1F110065051D /* FoodCourt */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CE7F1225A1FF20065051D /* CPFoodCourt.h */,
+				ED2CE7F2225A1FF20065051D /* CPFoodCourt.m */,
+				ED2CE7EE225A1F270065051D /* CPWaitress.h */,
+				ED2CE7EF225A1F270065051D /* CPWaitress.m */,
+			);
+			path = FoodCourt;
+			sourceTree = "<group>";
+		};
+		ED2CE803225A25FB0065051D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CE7ED225A1F110065051D /* FoodCourt */,
+				ED2CE7EC225A1EE00065051D /* Menu */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		ED2CE804225A26080065051D /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CE805225A26240065051D /* CompositeViewController.h */,
+				ED2CE806225A26240065051D /* CompositeViewController.m */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 		ED47279F2250F7A8000C5492 /* Example */ = {
@@ -1233,6 +1326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED19D88C21B7B6D100D92424 /* PracticeDescription.strings in Resources */,
+				ED2CE7E2225900C10065051D /* CompositePattern.strings in Resources */,
 				ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */,
 				ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */,
 				ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */,
@@ -1264,6 +1358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2CE7F3225A1FF20065051D /* CPFoodCourt.m in Sources */,
 				ED48FE3B21D10063007EE9B9 /* NYPizzaStore.m in Sources */,
 				ED943A51221E39DB00BBA091 /* AChicagoIngredientFirst.m in Sources */,
 				ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */,
@@ -1277,6 +1372,7 @@
 				ED943A57221E3A1500BBA091 /* ANYIngredientSecond.m in Sources */,
 				ED9B42DD22355A1700032EA1 /* GarageDoorDownCommand.m in Sources */,
 				ED9B42CA223543A200032EA1 /* CeilingFan.m in Sources */,
+				ED2CE807225A26240065051D /* CompositeViewController.m in Sources */,
 				ED19D87521B685F900D92424 /* FeedListViewController.m in Sources */,
 				ED19D8B821B9572200D92424 /* Soy.m in Sources */,
 				ED48FE5521D1020B007EE9B9 /* ChicagoStyleClamPizza.m in Sources */,
@@ -1293,6 +1389,7 @@
 				ED9B42EC2235610F00032EA1 /* CommandViewController.m in Sources */,
 				ED48FE2B21CA7953007EE9B9 /* ClamPizza.m in Sources */,
 				ED9B42F2223561E400032EA1 /* FactoryViewController.m in Sources */,
+				ED2CE802225A22700065051D /* CPDessertMenu.m in Sources */,
 				ED19D89D21B950A200D92424 /* Beverage.m in Sources */,
 				ED9B42E322355B3B00032EA1 /* CeilingFanOffCommand.m in Sources */,
 				ED943A64221E3A9700BBA091 /* AChicagoIngredientFactory.m in Sources */,
@@ -1308,9 +1405,12 @@
 				ED19D8A621B953B400D92424 /* Espresso.m in Sources */,
 				ED48FE4321D10117007EE9B9 /* NYStyleCheesePizza.m in Sources */,
 				ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */,
+				ED2CE7F0225A1F270065051D /* CPWaitress.m in Sources */,
 				ED943A54221E39F500BBA091 /* AChicagoIngredientSecond.m in Sources */,
 				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
+				ED2CE7E8225A19DA0065051D /* CPMenuItem.m in Sources */,
 				ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */,
+				ED2CE7FF225A225A0065051D /* CPCafeMenu.m in Sources */,
 				ED4727AC2250FE78000C5492 /* MenuItem.m in Sources */,
 				ED9B42BE22353F3F00032EA1 /* SimpleRemoteControl.m in Sources */,
 				ED91392B225106730071A15B /* FoodCourt.m in Sources */,
@@ -1318,6 +1418,7 @@
 				ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */,
 				ED19D8B521B956B300D92424 /* Milk.m in Sources */,
 				ED48FE4921D10142007EE9B9 /* NYStyleClamPizza.m in Sources */,
+				ED2CE7EB225A1AB90065051D /* CPMenu.m in Sources */,
 				ED19D83921B4E75E00D92424 /* MuteQuack.m in Sources */,
 				ED19D88421B7755E00D92424 /* FeedCell.m in Sources */,
 				ED943A3C221D85A700BBA091 /* AClamPizza.m in Sources */,
@@ -1334,6 +1435,7 @@
 				ED19D8BB21B9576000D92424 /* Whip.m in Sources */,
 				ED913942225115BE0071A15B /* IteratorViewController.m in Sources */,
 				ED48FE2221CA72C6007EE9B9 /* SimplePizzaFactory.m in Sources */,
+				ED2CE7F9225A22380065051D /* CPDinerMenu.m in Sources */,
 				ED4727A92250FD5F000C5492 /* DinerMenu.m in Sources */,
 				ED48FE3521D0FD81007EE9B9 /* YJPizzaStore.m in Sources */,
 				ED48FE4C21D1015B007EE9B9 /* NYStylePepperoniPizza.m in Sources */,
@@ -1360,6 +1462,7 @@
 				EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */,
 				ED9B42C42235410A00032EA1 /* GarageDoor.m in Sources */,
 				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
+				ED2CE7E5225A18B10065051D /* MenuComponent.m in Sources */,
 				ED943A45221D861200BBA091 /* AChicagoPizzaStore.m in Sources */,
 				ED943A61221E3A6300BBA091 /* AIngredientFactory.m in Sources */,
 				ED19D83321B4E73D00D92424 /* Quack.m in Sources */,
@@ -1369,6 +1472,7 @@
 				ED943A36221D858700BBA091 /* ACheesePizza.m in Sources */,
 				ED9B42E022355A7C00032EA1 /* CeilingFanOnCommand.m in Sources */,
 				ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */,
+				ED2CE7F6225A221C0065051D /* CPPancakeHouseMenu.m in Sources */,
 				ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
