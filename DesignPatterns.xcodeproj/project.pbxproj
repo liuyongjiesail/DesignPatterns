@@ -90,6 +90,8 @@
 		ED48FE5221D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5121D101B7007EE9B9 /* ChicagoStyleVeggiePizza.m */; };
 		ED48FE5521D1020B007EE9B9 /* ChicagoStyleClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5421D1020B007EE9B9 /* ChicagoStyleClamPizza.m */; };
 		ED48FE5821D10223007EE9B9 /* ChicagoStylePepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */; };
+		ED6F36E22263A2E6008820F6 /* WinnerState.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F36E12263A2E6008820F6 /* WinnerState.m */; };
+		ED6F36E62263A52F008820F6 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F36E52263A52F008820F6 /* StateViewController.m */; };
 		ED8855092224142800676B87 /* SingletonPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8855082224142800676B87 /* SingletonPattern.strings */; };
 		ED91392B225106730071A15B /* FoodCourt.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392A225106730071A15B /* FoodCourt.m */; };
 		ED91392E225106850071A15B /* Waitress.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392D225106850071A15B /* Waitress.m */; };
@@ -137,6 +139,12 @@
 		ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42EE2235615D00032EA1 /* SingletonViewController.m */; };
 		ED9B42F2223561E400032EA1 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F1223561E400032EA1 /* FactoryViewController.m */; };
 		ED9B42F52235720100032EA1 /* MacroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F42235720100032EA1 /* MacroCommand.m */; };
+		EDB7C36022636B25008732AA /* StatePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB7C35F22636B25008732AA /* StatePattern.strings */; };
+		EDB7C365226390C8008732AA /* SoldState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C364226390C8008732AA /* SoldState.m */; };
+		EDB7C368226390D8008732AA /* SoldOutState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C367226390D8008732AA /* SoldOutState.m */; };
+		EDB7C36B226390E6008732AA /* NoQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C36A226390E6008732AA /* NoQuarterState.m */; };
+		EDB7C36E226390F6008732AA /* HasQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C36D226390F6008732AA /* HasQuarterState.m */; };
+		EDB7C372226392AA008732AA /* GumballMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C371226392AA008732AA /* GumballMachine.m */; };
 		EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */; };
 		EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD245B52247CF40008D6016 /* AbstractClass.m */; };
 		EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.strings */; };
@@ -320,6 +328,10 @@
 		ED48FE5421D1020B007EE9B9 /* ChicagoStyleClamPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStyleClamPizza.m; sourceTree = "<group>"; };
 		ED48FE5621D10223007EE9B9 /* ChicagoStylePepperoniPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStylePepperoniPizza.h; sourceTree = "<group>"; };
 		ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStylePepperoniPizza.m; sourceTree = "<group>"; };
+		ED6F36E02263A2E6008820F6 /* WinnerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinnerState.h; sourceTree = "<group>"; };
+		ED6F36E12263A2E6008820F6 /* WinnerState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinnerState.m; sourceTree = "<group>"; };
+		ED6F36E42263A52F008820F6 /* StateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		ED6F36E52263A52F008820F6 /* StateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
 		ED8855082224142800676B87 /* SingletonPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SingletonPattern.strings; sourceTree = "<group>"; };
 		ED913929225106730071A15B /* FoodCourt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodCourt.h; sourceTree = "<group>"; };
 		ED91392A225106730071A15B /* FoodCourt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodCourt.m; sourceTree = "<group>"; };
@@ -414,6 +426,18 @@
 		ED9B42F1223561E400032EA1 /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
 		ED9B42F32235720100032EA1 /* MacroCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroCommand.h; sourceTree = "<group>"; };
 		ED9B42F42235720100032EA1 /* MacroCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroCommand.m; sourceTree = "<group>"; };
+		EDB7C35F22636B25008732AA /* StatePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = StatePattern.strings; sourceTree = "<group>"; };
+		EDB7C363226390C8008732AA /* SoldState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldState.h; sourceTree = "<group>"; };
+		EDB7C364226390C8008732AA /* SoldState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldState.m; sourceTree = "<group>"; };
+		EDB7C366226390D8008732AA /* SoldOutState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldOutState.h; sourceTree = "<group>"; };
+		EDB7C367226390D8008732AA /* SoldOutState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldOutState.m; sourceTree = "<group>"; };
+		EDB7C369226390E6008732AA /* NoQuarterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoQuarterState.h; sourceTree = "<group>"; };
+		EDB7C36A226390E6008732AA /* NoQuarterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoQuarterState.m; sourceTree = "<group>"; };
+		EDB7C36C226390F6008732AA /* HasQuarterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HasQuarterState.h; sourceTree = "<group>"; };
+		EDB7C36D226390F6008732AA /* HasQuarterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HasQuarterState.m; sourceTree = "<group>"; };
+		EDB7C36F22639144008732AA /* StateInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateInterface.h; sourceTree = "<group>"; };
+		EDB7C370226392AA008732AA /* GumballMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GumballMachine.h; sourceTree = "<group>"; };
+		EDB7C371226392AA008732AA /* GumballMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GumballMachine.m; sourceTree = "<group>"; };
 		EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TemplateMethodPattern.strings; sourceTree = "<group>"; };
 		EDD245B42247CF40008D6016 /* AbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
 		EDD245B52247CF40008D6016 /* AbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
@@ -453,6 +477,7 @@
 				EDD245B02247C6CA008D6016 /* TemplateMethodPattern */,
 				EDD245B72247D814008D6016 /* IteratorPattern */,
 				ED2CE7E02259004C0065051D /* CompositePattern */,
+				EDB7C35E22636AF4008732AA /* StatePattern */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -955,6 +980,15 @@
 			path = Chicago;
 			sourceTree = "<group>";
 		};
+		ED6F36E32263A50B008820F6 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				ED6F36E42263A52F008820F6 /* StateViewController.h */,
+				ED6F36E52263A52F008820F6 /* StateViewController.m */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
 		ED8855062224137600676B87 /* SingletonPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -1207,6 +1241,36 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		EDB7C35E22636AF4008732AA /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				EDB7C35F22636B25008732AA /* StatePattern.strings */,
+				EDB7C3612263828D008732AA /* Example */,
+				ED6F36E32263A50B008820F6 /* Practice */,
+			);
+			path = StatePattern;
+			sourceTree = "<group>";
+		};
+		EDB7C3612263828D008732AA /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDB7C370226392AA008732AA /* GumballMachine.h */,
+				EDB7C371226392AA008732AA /* GumballMachine.m */,
+				EDB7C36F22639144008732AA /* StateInterface.h */,
+				EDB7C363226390C8008732AA /* SoldState.h */,
+				EDB7C364226390C8008732AA /* SoldState.m */,
+				EDB7C366226390D8008732AA /* SoldOutState.h */,
+				EDB7C367226390D8008732AA /* SoldOutState.m */,
+				EDB7C369226390E6008732AA /* NoQuarterState.h */,
+				EDB7C36A226390E6008732AA /* NoQuarterState.m */,
+				EDB7C36C226390F6008732AA /* HasQuarterState.h */,
+				EDB7C36D226390F6008732AA /* HasQuarterState.m */,
+				ED6F36E02263A2E6008820F6 /* WinnerState.h */,
+				ED6F36E12263A2E6008820F6 /* WinnerState.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		EDD245B02247C6CA008D6016 /* TemplateMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -1336,6 +1400,7 @@
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
 				ED8855092224142800676B87 /* SingletonPattern.strings in Resources */,
 				ED19D89621B949A100D92424 /* DecoratePattern.strings in Resources */,
+				EDB7C36022636B25008732AA /* StatePattern.strings in Resources */,
 				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
 				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
 				ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */,
@@ -1362,6 +1427,7 @@
 				ED48FE3B21D10063007EE9B9 /* NYPizzaStore.m in Sources */,
 				ED943A51221E39DB00BBA091 /* AChicagoIngredientFirst.m in Sources */,
 				ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */,
+				EDB7C368226390D8008732AA /* SoldOutState.m in Sources */,
 				ED9B42D722354FCF00032EA1 /* NoCommand.m in Sources */,
 				ED9B42D422354FB000032EA1 /* RemoteControl.m in Sources */,
 				ED943A5A221E3A2700BBA091 /* ANYIngredientFirst.m in Sources */,
@@ -1370,6 +1436,7 @@
 				ED48FE2821CA7946007EE9B9 /* VeggiePizza.m in Sources */,
 				ED19D82321B4E4A000D92424 /* Duck.m in Sources */,
 				ED943A57221E3A1500BBA091 /* ANYIngredientSecond.m in Sources */,
+				EDB7C36E226390F6008732AA /* HasQuarterState.m in Sources */,
 				ED9B42DD22355A1700032EA1 /* GarageDoorDownCommand.m in Sources */,
 				ED9B42CA223543A200032EA1 /* CeilingFan.m in Sources */,
 				ED2CE807225A26240065051D /* CompositeViewController.m in Sources */,
@@ -1382,6 +1449,7 @@
 				ED943A30221D84EB00BBA091 /* ABasePizzaStore.m in Sources */,
 				ED48FE3E21D1007F007EE9B9 /* ChicagoPizzaStore.m in Sources */,
 				ED48FE2521CA7939007EE9B9 /* CheesePizza.m in Sources */,
+				ED6F36E62263A52F008820F6 /* StateViewController.m in Sources */,
 				ED9B42DA2235540400032EA1 /* LightOffCommand.m in Sources */,
 				ED19D80A21B1618D00D92424 /* main.m in Sources */,
 				ED943A4B221E39AB00BBA091 /* AIngredientFirst.m in Sources */,
@@ -1405,6 +1473,7 @@
 				ED19D8A621B953B400D92424 /* Espresso.m in Sources */,
 				ED48FE4321D10117007EE9B9 /* NYStyleCheesePizza.m in Sources */,
 				ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */,
+				EDB7C36B226390E6008732AA /* NoQuarterState.m in Sources */,
 				ED2CE7F0225A1F270065051D /* CPWaitress.m in Sources */,
 				ED943A54221E39F500BBA091 /* AChicagoIngredientSecond.m in Sources */,
 				ED19D84421B5054F00D92424 /* PayViewController.m in Sources */,
@@ -1419,6 +1488,7 @@
 				ED19D8B521B956B300D92424 /* Milk.m in Sources */,
 				ED48FE4921D10142007EE9B9 /* NYStyleClamPizza.m in Sources */,
 				ED2CE7EB225A1AB90065051D /* CPMenu.m in Sources */,
+				EDB7C365226390C8008732AA /* SoldState.m in Sources */,
 				ED19D83921B4E75E00D92424 /* MuteQuack.m in Sources */,
 				ED19D88421B7755E00D92424 /* FeedCell.m in Sources */,
 				ED943A3C221D85A700BBA091 /* AClamPizza.m in Sources */,
@@ -1460,6 +1530,7 @@
 				ED913938225107230071A15B /* DinerMenuIterator.m in Sources */,
 				ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */,
 				EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */,
+				ED6F36E22263A2E6008820F6 /* WinnerState.m in Sources */,
 				ED9B42C42235410A00032EA1 /* GarageDoor.m in Sources */,
 				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
 				ED2CE7E5225A18B10065051D /* MenuComponent.m in Sources */,
@@ -1472,6 +1543,7 @@
 				ED943A36221D858700BBA091 /* ACheesePizza.m in Sources */,
 				ED9B42E022355A7C00032EA1 /* CeilingFanOnCommand.m in Sources */,
 				ED19D83C21B4FF3D00D92424 /* MallardDuck.m in Sources */,
+				EDB7C372226392AA008732AA /* GumballMachine.m in Sources */,
 				ED2CE7F6225A221C0065051D /* CPPancakeHouseMenu.m in Sources */,
 				ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */,
 			);
