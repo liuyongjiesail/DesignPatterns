@@ -16,6 +16,7 @@
 #import "IteratorViewController.h"
 #import "CompositeViewController.h"
 #import "StateViewController.h"
+#import "CompoundViewController.h"
 
 @interface MainViewController ()
 
@@ -30,7 +31,7 @@
     
     self.title = @"设计模式";
     
-    self.dataArray = @[@"策略模式", @"观察者模式", @"装饰者模式", @"工厂模式", @"单例模式", @"命令模式", @"适配器模式", @"外观模式", @"模板方法模式", @"迭代器模式", @"组合模式", @"状态模式"].mutableCopy;
+    self.dataArray = @[@"策略模式", @"观察者模式", @"装饰者模式", @"工厂模式", @"单例模式", @"命令模式", @"适配器模式", @"外观模式", @"模板方法模式", @"迭代器模式", @"组合模式", @"状态模式", @"复合模式"].mutableCopy;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
@@ -90,6 +91,10 @@
         }
         case 11: {
             [self showViewController:[StateViewController new] sender:nil];
+            break;
+        }
+        case 12: {
+            [self showViewController:[CompoundViewController new] sender:nil];
             break;
         }
     }

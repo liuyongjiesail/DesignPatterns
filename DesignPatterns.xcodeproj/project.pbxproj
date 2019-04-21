@@ -145,9 +145,24 @@
 		EDB7C36B226390E6008732AA /* NoQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C36A226390E6008732AA /* NoQuarterState.m */; };
 		EDB7C36E226390F6008732AA /* HasQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C36D226390F6008732AA /* HasQuarterState.m */; };
 		EDB7C372226392AA008732AA /* GumballMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C371226392AA008732AA /* GumballMachine.m */; };
+		EDBBCCF2226CAA7700BD4C5C /* CompoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCCF1226CAA7700BD4C5C /* CompoundViewController.m */; };
+		EDBBCCF6226CAB8F00BD4C5C /* AbstractDuckFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCCF5226CAB8F00BD4C5C /* AbstractDuckFactory.m */; };
+		EDBBCCF9226CAD1500BD4C5C /* CountingDuckFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCCF8226CAD1500BD4C5C /* CountingDuckFactory.m */; };
+		EDBBCCFD226CAEC200BD4C5C /* Flock.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCCFC226CAEC200BD4C5C /* Flock.m */; };
+		EDBBCD02226CB54B00BD4C5C /* CPObservableImp.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCD01226CB54B00BD4C5C /* CPObservableImp.m */; };
+		EDBBCD08226CBB9F00BD4C5C /* Quackologist.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCD07226CBB9F00BD4C5C /* Quackologist.m */; };
 		EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */; };
 		EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD245B52247CF40008D6016 /* AbstractClass.m */; };
 		EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.strings */; };
+		EDF77D23226C921E004E1D1D /* CompoundPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDF77D22226C921E004E1D1D /* CompoundPattern.strings */; };
+		EDF77D28226C9640004E1D1D /* CPMallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D27226C9640004E1D1D /* CPMallardDuck.m */; };
+		EDF77D2B226C9653004E1D1D /* CPRedheadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D2A226C9653004E1D1D /* CPRedheadDuck.m */; };
+		EDF77D2E226CA020004E1D1D /* CPDuckCall.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D2D226CA020004E1D1D /* CPDuckCall.m */; };
+		EDF77D31226CA032004E1D1D /* CPRubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D30226CA032004E1D1D /* CPRubberDuck.m */; };
+		EDF77D34226CA163004E1D1D /* Goose.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D33226CA163004E1D1D /* Goose.m */; };
+		EDF77D37226CA1BA004E1D1D /* GooseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D36226CA1BA004E1D1D /* GooseAdapter.m */; };
+		EDF77D3A226CA30A004E1D1D /* QuackCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D39226CA30A004E1D1D /* QuackCounter.m */; };
+		EDF77D41226CA55C004E1D1D /* DuckSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D40226CA55C004E1D1D /* DuckSimulator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -438,10 +453,42 @@
 		EDB7C36F22639144008732AA /* StateInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateInterface.h; sourceTree = "<group>"; };
 		EDB7C370226392AA008732AA /* GumballMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GumballMachine.h; sourceTree = "<group>"; };
 		EDB7C371226392AA008732AA /* GumballMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GumballMachine.m; sourceTree = "<group>"; };
+		EDBBCCF0226CAA7700BD4C5C /* CompoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompoundViewController.h; sourceTree = "<group>"; };
+		EDBBCCF1226CAA7700BD4C5C /* CompoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompoundViewController.m; sourceTree = "<group>"; };
+		EDBBCCF4226CAB8F00BD4C5C /* AbstractDuckFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDuckFactory.h; sourceTree = "<group>"; };
+		EDBBCCF5226CAB8F00BD4C5C /* AbstractDuckFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractDuckFactory.m; sourceTree = "<group>"; };
+		EDBBCCF7226CAD1500BD4C5C /* CountingDuckFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountingDuckFactory.h; sourceTree = "<group>"; };
+		EDBBCCF8226CAD1500BD4C5C /* CountingDuckFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountingDuckFactory.m; sourceTree = "<group>"; };
+		EDBBCCFB226CAEC200BD4C5C /* Flock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flock.h; sourceTree = "<group>"; };
+		EDBBCCFC226CAEC200BD4C5C /* Flock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flock.m; sourceTree = "<group>"; };
+		EDBBCCFF226CB29100BD4C5C /* QuackObservableInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackObservableInterface.h; sourceTree = "<group>"; };
+		EDBBCD00226CB54B00BD4C5C /* CPObservableImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPObservableImp.h; sourceTree = "<group>"; };
+		EDBBCD01226CB54B00BD4C5C /* CPObservableImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPObservableImp.m; sourceTree = "<group>"; };
+		EDBBCD05226CB6D500BD4C5C /* CPObserverInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPObserverInterface.h; sourceTree = "<group>"; };
+		EDBBCD06226CBB9F00BD4C5C /* Quackologist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quackologist.h; sourceTree = "<group>"; };
+		EDBBCD07226CBB9F00BD4C5C /* Quackologist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quackologist.m; sourceTree = "<group>"; };
 		EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TemplateMethodPattern.strings; sourceTree = "<group>"; };
 		EDD245B42247CF40008D6016 /* AbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
 		EDD245B52247CF40008D6016 /* AbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
 		EDEC21CE21BE93A50088381F /* FactoryPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryPattern.strings; sourceTree = "<group>"; };
+		EDF77D22226C921E004E1D1D /* CompoundPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CompoundPattern.strings; sourceTree = "<group>"; };
+		EDF77D25226C95D2004E1D1D /* CPQuackInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPQuackInterface.h; sourceTree = "<group>"; };
+		EDF77D26226C9640004E1D1D /* CPMallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPMallardDuck.h; sourceTree = "<group>"; };
+		EDF77D27226C9640004E1D1D /* CPMallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPMallardDuck.m; sourceTree = "<group>"; };
+		EDF77D29226C9653004E1D1D /* CPRedheadDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRedheadDuck.h; sourceTree = "<group>"; };
+		EDF77D2A226C9653004E1D1D /* CPRedheadDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRedheadDuck.m; sourceTree = "<group>"; };
+		EDF77D2C226CA020004E1D1D /* CPDuckCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDuckCall.h; sourceTree = "<group>"; };
+		EDF77D2D226CA020004E1D1D /* CPDuckCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDuckCall.m; sourceTree = "<group>"; };
+		EDF77D2F226CA032004E1D1D /* CPRubberDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRubberDuck.h; sourceTree = "<group>"; };
+		EDF77D30226CA032004E1D1D /* CPRubberDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRubberDuck.m; sourceTree = "<group>"; };
+		EDF77D32226CA163004E1D1D /* Goose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goose.h; sourceTree = "<group>"; };
+		EDF77D33226CA163004E1D1D /* Goose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goose.m; sourceTree = "<group>"; };
+		EDF77D35226CA1BA004E1D1D /* GooseAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooseAdapter.h; sourceTree = "<group>"; };
+		EDF77D36226CA1BA004E1D1D /* GooseAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooseAdapter.m; sourceTree = "<group>"; };
+		EDF77D38226CA30A004E1D1D /* QuackCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackCounter.h; sourceTree = "<group>"; };
+		EDF77D39226CA30A004E1D1D /* QuackCounter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuackCounter.m; sourceTree = "<group>"; };
+		EDF77D3F226CA55C004E1D1D /* DuckSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckSimulator.h; sourceTree = "<group>"; };
+		EDF77D40226CA55C004E1D1D /* DuckSimulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckSimulator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,6 +525,7 @@
 				EDD245B72247D814008D6016 /* IteratorPattern */,
 				ED2CE7E02259004C0065051D /* CompositePattern */,
 				EDB7C35E22636AF4008732AA /* StatePattern */,
+				EDF77D21226C91DC004E1D1D /* CompoundPattern */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -1271,6 +1319,46 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		EDBBCCF3226CAB5F00BD4C5C /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBCCF4226CAB8F00BD4C5C /* AbstractDuckFactory.h */,
+				EDBBCCF5226CAB8F00BD4C5C /* AbstractDuckFactory.m */,
+				EDBBCCF7226CAD1500BD4C5C /* CountingDuckFactory.h */,
+				EDBBCCF8226CAD1500BD4C5C /* CountingDuckFactory.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		EDBBCCFA226CAEAA00BD4C5C /* Flock */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBCCFB226CAEC200BD4C5C /* Flock.h */,
+				EDBBCCFC226CAEC200BD4C5C /* Flock.m */,
+			);
+			path = Flock;
+			sourceTree = "<group>";
+		};
+		EDBBCCFE226CB25000BD4C5C /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBCCFF226CB29100BD4C5C /* QuackObservableInterface.h */,
+				EDBBCD00226CB54B00BD4C5C /* CPObservableImp.h */,
+				EDBBCD01226CB54B00BD4C5C /* CPObservableImp.m */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		EDBBCD03226CB67800BD4C5C /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBCD05226CB6D500BD4C5C /* CPObserverInterface.h */,
+				EDBBCD06226CBB9F00BD4C5C /* Quackologist.h */,
+				EDBBCD07226CBB9F00BD4C5C /* Quackologist.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		EDD245B02247C6CA008D6016 /* TemplateMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -1307,6 +1395,77 @@
 				ED48FE0721C91E03007EE9B9 /* Practice */,
 			);
 			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		EDF77D21226C91DC004E1D1D /* CompoundPattern */ = {
+			isa = PBXGroup;
+			children = (
+				EDF77D22226C921E004E1D1D /* CompoundPattern.strings */,
+				EDF77D24226C94A8004E1D1D /* Example */,
+			);
+			path = CompoundPattern;
+			sourceTree = "<group>";
+		};
+		EDF77D24226C94A8004E1D1D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBCCF0226CAA7700BD4C5C /* CompoundViewController.h */,
+				EDBBCCF1226CAA7700BD4C5C /* CompoundViewController.m */,
+				EDF77D3E226CA50C004E1D1D /* DuckSimulator */,
+				EDF77D3B226CA4B2004E1D1D /* Duck */,
+				EDF77D3C226CA4C4004E1D1D /* Goose */,
+				EDF77D3D226CA4E0004E1D1D /* Decorate */,
+				EDBBCCF3226CAB5F00BD4C5C /* AbstractFactory */,
+				EDBBCCFA226CAEAA00BD4C5C /* Flock */,
+				EDBBCCFE226CB25000BD4C5C /* Observable */,
+				EDBBCD03226CB67800BD4C5C /* Observer */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		EDF77D3B226CA4B2004E1D1D /* Duck */ = {
+			isa = PBXGroup;
+			children = (
+				EDF77D25226C95D2004E1D1D /* CPQuackInterface.h */,
+				EDF77D26226C9640004E1D1D /* CPMallardDuck.h */,
+				EDF77D27226C9640004E1D1D /* CPMallardDuck.m */,
+				EDF77D29226C9653004E1D1D /* CPRedheadDuck.h */,
+				EDF77D2A226C9653004E1D1D /* CPRedheadDuck.m */,
+				EDF77D2C226CA020004E1D1D /* CPDuckCall.h */,
+				EDF77D2D226CA020004E1D1D /* CPDuckCall.m */,
+				EDF77D2F226CA032004E1D1D /* CPRubberDuck.h */,
+				EDF77D30226CA032004E1D1D /* CPRubberDuck.m */,
+			);
+			path = Duck;
+			sourceTree = "<group>";
+		};
+		EDF77D3C226CA4C4004E1D1D /* Goose */ = {
+			isa = PBXGroup;
+			children = (
+				EDF77D32226CA163004E1D1D /* Goose.h */,
+				EDF77D33226CA163004E1D1D /* Goose.m */,
+				EDF77D35226CA1BA004E1D1D /* GooseAdapter.h */,
+				EDF77D36226CA1BA004E1D1D /* GooseAdapter.m */,
+			);
+			path = Goose;
+			sourceTree = "<group>";
+		};
+		EDF77D3D226CA4E0004E1D1D /* Decorate */ = {
+			isa = PBXGroup;
+			children = (
+				EDF77D38226CA30A004E1D1D /* QuackCounter.h */,
+				EDF77D39226CA30A004E1D1D /* QuackCounter.m */,
+			);
+			path = Decorate;
+			sourceTree = "<group>";
+		};
+		EDF77D3E226CA50C004E1D1D /* DuckSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				EDF77D3F226CA55C004E1D1D /* DuckSimulator.h */,
+				EDF77D40226CA55C004E1D1D /* DuckSimulator.m */,
+			);
+			path = DuckSimulator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1395,6 +1554,7 @@
 				ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */,
 				ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */,
 				ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */,
+				EDF77D23226C921E004E1D1D /* CompoundPattern.strings in Resources */,
 				EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */,
 				EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */,
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
@@ -1432,28 +1592,35 @@
 				ED9B42D422354FB000032EA1 /* RemoteControl.m in Sources */,
 				ED943A5A221E3A2700BBA091 /* ANYIngredientFirst.m in Sources */,
 				ED9B42D122354A2300032EA1 /* RemoteControlTest.m in Sources */,
+				EDF77D2B226C9653004E1D1D /* CPRedheadDuck.m in Sources */,
 				ED19D82D21B4E67000D92424 /* FlyNoWay.m in Sources */,
 				ED48FE2821CA7946007EE9B9 /* VeggiePizza.m in Sources */,
+				EDBBCCF9226CAD1500BD4C5C /* CountingDuckFactory.m in Sources */,
 				ED19D82321B4E4A000D92424 /* Duck.m in Sources */,
 				ED943A57221E3A1500BBA091 /* ANYIngredientSecond.m in Sources */,
 				EDB7C36E226390F6008732AA /* HasQuarterState.m in Sources */,
 				ED9B42DD22355A1700032EA1 /* GarageDoorDownCommand.m in Sources */,
 				ED9B42CA223543A200032EA1 /* CeilingFan.m in Sources */,
 				ED2CE807225A26240065051D /* CompositeViewController.m in Sources */,
+				EDBBCD08226CBB9F00BD4C5C /* Quackologist.m in Sources */,
 				ED19D87521B685F900D92424 /* FeedListViewController.m in Sources */,
 				ED19D8B821B9572200D92424 /* Soy.m in Sources */,
 				ED48FE5521D1020B007EE9B9 /* ChicagoStyleClamPizza.m in Sources */,
 				ED943A33221D850B00BBA091 /* ABasePizza.m in Sources */,
+				EDBBCCF6226CAB8F00BD4C5C /* AbstractDuckFactory.m in Sources */,
 				ED48FE3821D0FD92007EE9B9 /* YJPizza.m in Sources */,
 				ED9B42B822353D1600032EA1 /* LightOnCommand.m in Sources */,
 				ED943A30221D84EB00BBA091 /* ABasePizzaStore.m in Sources */,
+				EDBBCCFD226CAEC200BD4C5C /* Flock.m in Sources */,
 				ED48FE3E21D1007F007EE9B9 /* ChicagoPizzaStore.m in Sources */,
 				ED48FE2521CA7939007EE9B9 /* CheesePizza.m in Sources */,
 				ED6F36E62263A52F008820F6 /* StateViewController.m in Sources */,
 				ED9B42DA2235540400032EA1 /* LightOffCommand.m in Sources */,
 				ED19D80A21B1618D00D92424 /* main.m in Sources */,
 				ED943A4B221E39AB00BBA091 /* AIngredientFirst.m in Sources */,
+				EDF77D34226CA163004E1D1D /* Goose.m in Sources */,
 				ED9B42BB22353D4800032EA1 /* Light.m in Sources */,
+				EDF77D31226CA032004E1D1D /* CPRubberDuck.m in Sources */,
 				ED9B42EC2235610F00032EA1 /* CommandViewController.m in Sources */,
 				ED48FE2B21CA7953007EE9B9 /* ClamPizza.m in Sources */,
 				ED9B42F2223561E400032EA1 /* FactoryViewController.m in Sources */,
@@ -1468,6 +1635,7 @@
 				ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */,
 				ED91392E225106850071A15B /* Waitress.m in Sources */,
 				ED48FE2E21CA7962007EE9B9 /* PepperoniPizza.m in Sources */,
+				EDF77D3A226CA30A004E1D1D /* QuackCounter.m in Sources */,
 				ED943A4E221E39BF00BBA091 /* AIngredientSecond.m in Sources */,
 				ED9B42E922355B5E00032EA1 /* StereoOffCommand.m in Sources */,
 				ED19D8A621B953B400D92424 /* Espresso.m in Sources */,
@@ -1480,9 +1648,11 @@
 				ED2CE7E8225A19DA0065051D /* CPMenuItem.m in Sources */,
 				ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */,
 				ED2CE7FF225A225A0065051D /* CPCafeMenu.m in Sources */,
+				EDF77D28226C9640004E1D1D /* CPMallardDuck.m in Sources */,
 				ED4727AC2250FE78000C5492 /* MenuItem.m in Sources */,
 				ED9B42BE22353F3F00032EA1 /* SimpleRemoteControl.m in Sources */,
 				ED91392B225106730071A15B /* FoodCourt.m in Sources */,
+				EDBBCD02226CB54B00BD4C5C /* CPObservableImp.m in Sources */,
 				ED48FE4F21D101A5007EE9B9 /* ChicagoStyleCheesePizza.m in Sources */,
 				ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */,
 				ED19D8B521B956B300D92424 /* Milk.m in Sources */,
@@ -1502,6 +1672,7 @@
 				ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */,
 				ED943A3F221D85B700BBA091 /* APepperoniPizza.m in Sources */,
 				ED48FE1E21CA72A2007EE9B9 /* Pizza.m in Sources */,
+				EDF77D41226CA55C004E1D1D /* DuckSimulator.m in Sources */,
 				ED19D8BB21B9576000D92424 /* Whip.m in Sources */,
 				ED913942225115BE0071A15B /* IteratorViewController.m in Sources */,
 				ED48FE2221CA72C6007EE9B9 /* SimplePizzaFactory.m in Sources */,
@@ -1510,6 +1681,7 @@
 				ED48FE3521D0FD81007EE9B9 /* YJPizzaStore.m in Sources */,
 				ED48FE4C21D1015B007EE9B9 /* NYStylePepperoniPizza.m in Sources */,
 				ED943A42221D85FC00BBA091 /* ANYPizzaStore.m in Sources */,
+				EDF77D2E226CA020004E1D1D /* CPDuckCall.m in Sources */,
 				ED19D8AC21B9547400D92424 /* CondimentDecorator.m in Sources */,
 				ED48FE4621D10130007EE9B9 /* NYStyleVeggiePizza.m in Sources */,
 				ED19D87B21B763E400D92424 /* FeedModel.m in Sources */,
@@ -1523,11 +1695,13 @@
 				ED91393E2251140E0071A15B /* CafeMenuIterator.m in Sources */,
 				ED19D85021B5061200D92424 /* ApplePayment.m in Sources */,
 				ED913935225107140071A15B /* PancakeHouseMenuIterator.m in Sources */,
+				EDBBCCF2226CAA7700BD4C5C /* CompoundViewController.m in Sources */,
 				ED19D85821B5144F00D92424 /* MainViewController.m in Sources */,
 				ED943A67221E3AC600BBA091 /* ANYIngredientFactory.m in Sources */,
 				ED9B42C72235418D00032EA1 /* GarageDoorOpenCommand.m in Sources */,
 				ED19D8B221B954CE00D92424 /* Mocha.m in Sources */,
 				ED913938225107230071A15B /* DinerMenuIterator.m in Sources */,
+				EDF77D37226CA1BA004E1D1D /* GooseAdapter.m in Sources */,
 				ED19D83F21B5000B00D92424 /* RedHeadDuck.m in Sources */,
 				EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */,
 				ED6F36E22263A2E6008820F6 /* WinnerState.m in Sources */,
