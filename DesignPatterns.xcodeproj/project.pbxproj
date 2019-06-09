@@ -67,6 +67,7 @@
 		ED2CE7FF225A225A0065051D /* CPCafeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7FE225A225A0065051D /* CPCafeMenu.m */; };
 		ED2CE802225A22700065051D /* CPDessertMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE801225A22700065051D /* CPDessertMenu.m */; };
 		ED2CE807225A26240065051D /* CompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE806225A26240065051D /* CompositeViewController.m */; };
+		ED30AFFB229194C8002AFE5B /* BeatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30AFFA229194C8002AFE5B /* BeatModel.m */; };
 		ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED47279D2250F6D5000C5492 /* IteratorPattern.strings */; };
 		ED4727A62250FD3C000C5492 /* PancakeHouseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A52250FD3C000C5492 /* PancakeHouseMenu.m */; };
 		ED4727A92250FD5F000C5492 /* DinerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A82250FD5F000C5492 /* DinerMenu.m */; };
@@ -92,6 +93,7 @@
 		ED48FE5821D10223007EE9B9 /* ChicagoStylePepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */; };
 		ED6F36E22263A2E6008820F6 /* WinnerState.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F36E12263A2E6008820F6 /* WinnerState.m */; };
 		ED6F36E62263A52F008820F6 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F36E52263A52F008820F6 /* StateViewController.m */; };
+		ED76DAD122885AB1005DAEE1 /* MVCPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED76DAD022885AB1005DAEE1 /* MVCPattern.strings */; };
 		ED8855092224142800676B87 /* SingletonPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8855082224142800676B87 /* SingletonPattern.strings */; };
 		ED91392B225106730071A15B /* FoodCourt.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392A225106730071A15B /* FoodCourt.m */; };
 		ED91392E225106850071A15B /* Waitress.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392D225106850071A15B /* Waitress.m */; };
@@ -153,6 +155,8 @@
 		EDBBCD08226CBB9F00BD4C5C /* Quackologist.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCD07226CBB9F00BD4C5C /* Quackologist.m */; };
 		EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */; };
 		EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD245B52247CF40008D6016 /* AbstractClass.m */; };
+		EDD9A1DB22AD17BA00315FC3 /* DJView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD9A1DA22AD17BA00315FC3 /* DJView.m */; };
+		EDD9A1DE22AD31FB00315FC3 /* BeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD9A1DD22AD31FB00315FC3 /* BeatViewController.m */; };
 		EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.strings */; };
 		EDF77D23226C921E004E1D1D /* CompoundPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDF77D22226C921E004E1D1D /* CompoundPattern.strings */; };
 		EDF77D28226C9640004E1D1D /* CPMallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D27226C9640004E1D1D /* CPMallardDuck.m */; };
@@ -297,6 +301,10 @@
 		ED2CE801225A22700065051D /* CPDessertMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDessertMenu.m; sourceTree = "<group>"; };
 		ED2CE805225A26240065051D /* CompositeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeViewController.h; sourceTree = "<group>"; };
 		ED2CE806225A26240065051D /* CompositeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeViewController.m; sourceTree = "<group>"; };
+		ED30AFF9229194C8002AFE5B /* BeatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatModel.h; sourceTree = "<group>"; };
+		ED30AFFA229194C8002AFE5B /* BeatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatModel.m; sourceTree = "<group>"; };
+		ED30AFFD229195C6002AFE5B /* DPObserverInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPObserverInterface.h; sourceTree = "<group>"; };
+		ED30AFFE2291994D002AFE5B /* DPSubjectInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSubjectInterface.h; sourceTree = "<group>"; };
 		ED47279D2250F6D5000C5492 /* IteratorPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = IteratorPattern.strings; sourceTree = "<group>"; };
 		ED4727A32250FD24000C5492 /* MenuInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuInterface.h; sourceTree = "<group>"; };
 		ED4727A42250FD3C000C5492 /* PancakeHouseMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeHouseMenu.h; sourceTree = "<group>"; };
@@ -347,6 +355,7 @@
 		ED6F36E12263A2E6008820F6 /* WinnerState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinnerState.m; sourceTree = "<group>"; };
 		ED6F36E42263A52F008820F6 /* StateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
 		ED6F36E52263A52F008820F6 /* StateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		ED76DAD022885AB1005DAEE1 /* MVCPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = MVCPattern.strings; sourceTree = "<group>"; };
 		ED8855082224142800676B87 /* SingletonPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SingletonPattern.strings; sourceTree = "<group>"; };
 		ED913929225106730071A15B /* FoodCourt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodCourt.h; sourceTree = "<group>"; };
 		ED91392A225106730071A15B /* FoodCourt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodCourt.m; sourceTree = "<group>"; };
@@ -470,6 +479,10 @@
 		EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TemplateMethodPattern.strings; sourceTree = "<group>"; };
 		EDD245B42247CF40008D6016 /* AbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
 		EDD245B52247CF40008D6016 /* AbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
+		EDD9A1D922AD17BA00315FC3 /* DJView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJView.h; sourceTree = "<group>"; };
+		EDD9A1DA22AD17BA00315FC3 /* DJView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJView.m; sourceTree = "<group>"; };
+		EDD9A1DC22AD31FB00315FC3 /* BeatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatViewController.h; sourceTree = "<group>"; };
+		EDD9A1DD22AD31FB00315FC3 /* BeatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatViewController.m; sourceTree = "<group>"; };
 		EDEC21CE21BE93A50088381F /* FactoryPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryPattern.strings; sourceTree = "<group>"; };
 		EDF77D22226C921E004E1D1D /* CompoundPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CompoundPattern.strings; sourceTree = "<group>"; };
 		EDF77D25226C95D2004E1D1D /* CPQuackInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPQuackInterface.h; sourceTree = "<group>"; };
@@ -526,6 +539,7 @@
 				ED2CE7E02259004C0065051D /* CompositePattern */,
 				EDB7C35E22636AF4008732AA /* StatePattern */,
 				EDF77D21226C91DC004E1D1D /* CompoundPattern */,
+				ED76DACF22885A84005DAEE1 /* MVCPattern */,
 				ED19D81F21B4E29A00D92424 /* Supporting Files */,
 				ED19D7F821B1618B00D92424 /* Products */,
 			);
@@ -907,6 +921,45 @@
 			path = Practice;
 			sourceTree = "<group>";
 		};
+		ED30AFF52291943F002AFE5B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED30AFFE2291994D002AFE5B /* DPSubjectInterface.h */,
+				ED30AFFD229195C6002AFE5B /* DPObserverInterface.h */,
+				ED30AFF822919461002AFE5B /* Model */,
+				ED30AFF72291945B002AFE5B /* View */,
+				ED30AFF622919452002AFE5B /* Controller */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		ED30AFF622919452002AFE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDD9A1DC22AD31FB00315FC3 /* BeatViewController.h */,
+				EDD9A1DD22AD31FB00315FC3 /* BeatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED30AFF72291945B002AFE5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDD9A1D922AD17BA00315FC3 /* DJView.h */,
+				EDD9A1DA22AD17BA00315FC3 /* DJView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED30AFF822919461002AFE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED30AFF9229194C8002AFE5B /* BeatModel.h */,
+				ED30AFFA229194C8002AFE5B /* BeatModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ED47279F2250F7A8000C5492 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -1035,6 +1088,15 @@
 				ED6F36E52263A52F008820F6 /* StateViewController.m */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		ED76DACF22885A84005DAEE1 /* MVCPattern */ = {
+			isa = PBXGroup;
+			children = (
+				ED76DAD022885AB1005DAEE1 /* MVCPattern.strings */,
+				ED30AFF52291943F002AFE5B /* Example */,
+			);
+			path = MVCPattern;
 			sourceTree = "<group>";
 		};
 		ED8855062224137600676B87 /* SingletonPattern */ = {
@@ -1562,6 +1624,7 @@
 				ED19D89621B949A100D92424 /* DecoratePattern.strings in Resources */,
 				EDB7C36022636B25008732AA /* StatePattern.strings in Resources */,
 				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
+				ED76DAD122885AB1005DAEE1 /* MVCPattern.strings in Resources */,
 				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
 				ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */,
 				ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */,
@@ -1589,6 +1652,7 @@
 				ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */,
 				EDB7C368226390D8008732AA /* SoldOutState.m in Sources */,
 				ED9B42D722354FCF00032EA1 /* NoCommand.m in Sources */,
+				EDD9A1DE22AD31FB00315FC3 /* BeatViewController.m in Sources */,
 				ED9B42D422354FB000032EA1 /* RemoteControl.m in Sources */,
 				ED943A5A221E3A2700BBA091 /* ANYIngredientFirst.m in Sources */,
 				ED9B42D122354A2300032EA1 /* RemoteControlTest.m in Sources */,
@@ -1668,6 +1732,7 @@
 				ED9B42CD223543B200032EA1 /* Stereo.m in Sources */,
 				ED19D83021B4E6B900D92424 /* FlyRocketPowered.m in Sources */,
 				ED9B42E622355B4900032EA1 /* StereoOnCommand.m in Sources */,
+				ED30AFFB229194C8002AFE5B /* BeatModel.m in Sources */,
 				ED19D84721B505BC00D92424 /* PaymentObject.m in Sources */,
 				ED19D82821B4E62900D92424 /* FlyWithWings.m in Sources */,
 				ED943A3F221D85B700BBA091 /* APepperoniPizza.m in Sources */,
@@ -1708,6 +1773,7 @@
 				ED9B42C42235410A00032EA1 /* GarageDoor.m in Sources */,
 				ED19D83621B4E75300D92424 /* Squeak.m in Sources */,
 				ED2CE7E5225A18B10065051D /* MenuComponent.m in Sources */,
+				EDD9A1DB22AD17BA00315FC3 /* DJView.m in Sources */,
 				ED943A45221D861200BBA091 /* AChicagoPizzaStore.m in Sources */,
 				ED943A61221E3A6300BBA091 /* AIngredientFactory.m in Sources */,
 				ED19D83321B4E73D00D92424 /* Quack.m in Sources */,
