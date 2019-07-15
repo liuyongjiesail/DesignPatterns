@@ -77,6 +77,7 @@
 		ED1E585D22DC6B2E00B45B2A /* strategy_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E584522DC6B2E00B45B2A /* strategy_pattern.png */; };
 		ED1E585E22DC6B2E00B45B2A /* mediator_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E584622DC6B2E00B45B2A /* mediator_pattern.png */; };
 		ED1E585F22DC6B2E00B45B2A /* state_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E584722DC6B2E00B45B2A /* state_pattern.png */; };
+		ED1E586122DC743A00B45B2A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED1E586022DC743A00B45B2A /* README.md */; };
 		ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA0223E86140031198C /* AdapterPattern.strings */; };
 		ED2C0AA7223E92640031198C /* EnumerationIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C0AA6223E92640031198C /* EnumerationIterator.m */; };
 		ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA8223E95C70031198C /* FacadePattern.strings */; };
@@ -322,6 +323,7 @@
 		ED1E584522DC6B2E00B45B2A /* strategy_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strategy_pattern.png; sourceTree = "<group>"; };
 		ED1E584622DC6B2E00B45B2A /* mediator_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mediator_pattern.png; sourceTree = "<group>"; };
 		ED1E584722DC6B2E00B45B2A /* state_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state_pattern.png; sourceTree = "<group>"; };
+		ED1E586022DC743A00B45B2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED2C0AA0223E86140031198C /* AdapterPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AdapterPattern.strings; sourceTree = "<group>"; };
 		ED2C0AA3223E91F90031198C /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
 		ED2C0AA4223E922A0031198C /* Enumeration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enumeration.h; sourceTree = "<group>"; };
@@ -574,6 +576,7 @@
 			isa = PBXGroup;
 			children = (
 				ED19D85921B5170200D92424 /* OODesignPrinciple.strings */,
+				ED1E586022DC743A00B45B2A /* README.md */,
 				ED1E582E22DC6B2D00B45B2A /* PPT_Share */,
 				ED1E583022DC6B2D00B45B2A /* Resource */,
 				ED19D81E21B4E28100D92424 /* StrategyPattern */,
@@ -1740,6 +1743,7 @@
 				ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */,
 				ED1E585E22DC6B2E00B45B2A /* mediator_pattern.png in Resources */,
 				ED9B42B4223535CE00032EA1 /* CommandPattern.strings in Resources */,
+				ED1E586122DC743A00B45B2A /* README.md in Resources */,
 				ED1E585022DC6B2E00B45B2A /* template_method_pattern.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
