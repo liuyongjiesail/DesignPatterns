@@ -1,0 +1,12 @@
+
+
+## UML类图：
+ https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike220%2C5%2C5%2C220%2C73/sign=05cf97ee9d0a304e462fa8a8b0a1cce3/1ad5ad6eddc451da791bef01bcfd5266d116326f.jpg
+ 
+## 策略模式 -- 行为型模式
+ 
+定义了算法族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化独立于使用算法的客户
+ 
+ - 具体策略角色：包装了相关的算法和行为
+ - 抽象策略角色：由一个接口或者抽象类实现
+ - 环境角色：持有一个策略类的引用

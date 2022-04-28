@@ -28,9 +28,8 @@
 		ED19D84D21B505EE00D92424 /* WechatPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84C21B505EE00D92424 /* WechatPayment.m */; };
 		ED19D85021B5061200D92424 /* ApplePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D84F21B5061200D92424 /* ApplePayment.m */; };
 		ED19D85821B5144F00D92424 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D85721B5144F00D92424 /* MainViewController.m */; };
-		ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D85921B5170200D92424 /* OODesignPrinciple.strings */; };
-		ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D85B21B5190D00D92424 /* StrategyPattern.strings */; };
-		ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D85E21B5605200D92424 /* ObserverPattern.strings */; };
+		ED19D85C21B5190D00D92424 /* StrategyPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED19D85B21B5190D00D92424 /* StrategyPattern.md */; };
+		ED19D85F21B5605200D92424 /* ObserverPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED19D85E21B5605200D92424 /* ObserverPattern.md */; };
 		ED19D86721B6596F00D92424 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D86621B6596F00D92424 /* WeatherData.m */; };
 		ED19D86C21B6722200D92424 /* CurrentConditionsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D86B21B6722200D92424 /* CurrentConditionsDisplay.m */; };
 		ED19D86F21B6723C00D92424 /* StatisticsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D86E21B6723C00D92424 /* StatisticsDisplay.m */; };
@@ -41,7 +40,7 @@
 		ED19D88721B7B26300D92424 /* FeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D88621B7B26200D92424 /* FeedDetailViewController.m */; };
 		ED19D88A21B7B29700D92424 /* FeedDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D88921B7B29700D92424 /* FeedDetailView.m */; };
 		ED19D88C21B7B6D100D92424 /* PracticeDescription.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D88B21B7B6D100D92424 /* PracticeDescription.strings */; };
-		ED19D89621B949A100D92424 /* DecoratePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED19D89521B949A100D92424 /* DecoratePattern.strings */; };
+		ED19D89621B949A100D92424 /* DecoratePattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED19D89521B949A100D92424 /* DecoratePattern.md */; };
 		ED19D89D21B950A200D92424 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D89C21B950A200D92424 /* Beverage.m */; };
 		ED19D8A021B9524C00D92424 /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D89F21B9524C00D92424 /* HouseBlend.m */; };
 		ED19D8A321B9536200D92424 /* DarkRoast.m in Sources */ = {isa = PBXBuildFile; fileRef = ED19D8A221B9536200D92424 /* DarkRoast.m */; };
@@ -78,10 +77,10 @@
 		ED1E585E22DC6B2E00B45B2A /* mediator_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E584622DC6B2E00B45B2A /* mediator_pattern.png */; };
 		ED1E585F22DC6B2E00B45B2A /* state_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1E584722DC6B2E00B45B2A /* state_pattern.png */; };
 		ED1E586122DC743A00B45B2A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED1E586022DC743A00B45B2A /* README.md */; };
-		ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA0223E86140031198C /* AdapterPattern.strings */; };
+		ED2C0AA1223E86140031198C /* AdapterPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA0223E86140031198C /* AdapterPattern.md */; };
 		ED2C0AA7223E92640031198C /* EnumerationIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C0AA6223E92640031198C /* EnumerationIterator.m */; };
-		ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA8223E95C70031198C /* FacadePattern.strings */; };
-		ED2CE7E2225900C10065051D /* CompositePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2CE7E1225900C10065051D /* CompositePattern.strings */; };
+		ED2C0AA9223E95C70031198C /* FacadePattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED2C0AA8223E95C70031198C /* FacadePattern.md */; };
+		ED2CE7E2225900C10065051D /* CompositePattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED2CE7E1225900C10065051D /* CompositePattern.md */; };
 		ED2CE7E5225A18B10065051D /* MenuComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7E4225A18B10065051D /* MenuComponent.m */; };
 		ED2CE7E8225A19DA0065051D /* CPMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7E7225A19DA0065051D /* CPMenuItem.m */; };
 		ED2CE7EB225A1AB90065051D /* CPMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE7EA225A1AB90065051D /* CPMenu.m */; };
@@ -93,7 +92,7 @@
 		ED2CE802225A22700065051D /* CPDessertMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE801225A22700065051D /* CPDessertMenu.m */; };
 		ED2CE807225A26240065051D /* CompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2CE806225A26240065051D /* CompositeViewController.m */; };
 		ED30AFFB229194C8002AFE5B /* BeatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED30AFFA229194C8002AFE5B /* BeatModel.m */; };
-		ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED47279D2250F6D5000C5492 /* IteratorPattern.strings */; };
+		ED47279E2250F6D5000C5492 /* IteratorPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED47279D2250F6D5000C5492 /* IteratorPattern.md */; };
 		ED4727A62250FD3C000C5492 /* PancakeHouseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A52250FD3C000C5492 /* PancakeHouseMenu.m */; };
 		ED4727A92250FD5F000C5492 /* DinerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727A82250FD5F000C5492 /* DinerMenu.m */; };
 		ED4727AC2250FE78000C5492 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4727AB2250FE77000C5492 /* MenuItem.m */; };
@@ -118,8 +117,8 @@
 		ED48FE5821D10223007EE9B9 /* ChicagoStylePepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48FE5721D10223007EE9B9 /* ChicagoStylePepperoniPizza.m */; };
 		ED6F36E22263A2E6008820F6 /* WinnerState.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F36E12263A2E6008820F6 /* WinnerState.m */; };
 		ED6F36E62263A52F008820F6 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6F36E52263A52F008820F6 /* StateViewController.m */; };
-		ED76DAD122885AB1005DAEE1 /* MVCPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED76DAD022885AB1005DAEE1 /* MVCPattern.strings */; };
-		ED8855092224142800676B87 /* SingletonPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8855082224142800676B87 /* SingletonPattern.strings */; };
+		ED76DAD122885AB1005DAEE1 /* MVCPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED76DAD022885AB1005DAEE1 /* MVCPattern.md */; };
+		ED8855092224142800676B87 /* SingletonPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED8855082224142800676B87 /* SingletonPattern.md */; };
 		ED91392B225106730071A15B /* FoodCourt.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392A225106730071A15B /* FoodCourt.m */; };
 		ED91392E225106850071A15B /* Waitress.m in Sources */ = {isa = PBXBuildFile; fileRef = ED91392D225106850071A15B /* Waitress.m */; };
 		ED913935225107140071A15B /* PancakeHouseMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED913934225107140071A15B /* PancakeHouseMenuIterator.m */; };
@@ -145,7 +144,7 @@
 		ED943A64221E3A9700BBA091 /* AChicagoIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED943A63221E3A9700BBA091 /* AChicagoIngredientFactory.m */; };
 		ED943A67221E3AC600BBA091 /* ANYIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED943A66221E3AC600BBA091 /* ANYIngredientFactory.m */; };
 		ED9B42AE2235309500032EA1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42AD2235309500032EA1 /* Singleton.m */; };
-		ED9B42B4223535CE00032EA1 /* CommandPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED9B42B1223535CE00032EA1 /* CommandPattern.strings */; };
+		ED9B42B4223535CE00032EA1 /* CommandPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = ED9B42B1223535CE00032EA1 /* CommandPattern.md */; };
 		ED9B42B822353D1600032EA1 /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42B722353D1600032EA1 /* LightOnCommand.m */; };
 		ED9B42BB22353D4800032EA1 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42BA22353D4800032EA1 /* Light.m */; };
 		ED9B42BE22353F3F00032EA1 /* SimpleRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42BD22353F3F00032EA1 /* SimpleRemoteControl.m */; };
@@ -166,7 +165,8 @@
 		ED9B42EF2235615D00032EA1 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42EE2235615D00032EA1 /* SingletonViewController.m */; };
 		ED9B42F2223561E400032EA1 /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F1223561E400032EA1 /* FactoryViewController.m */; };
 		ED9B42F52235720100032EA1 /* MacroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9B42F42235720100032EA1 /* MacroCommand.m */; };
-		EDB7C36022636B25008732AA /* StatePattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB7C35F22636B25008732AA /* StatePattern.strings */; };
+		EDAEB8F6281AA1F600ECDDD1 /* OODesignPrinciple.md in Resources */ = {isa = PBXBuildFile; fileRef = EDAEB8F5281AA1F600ECDDD1 /* OODesignPrinciple.md */; };
+		EDB7C36022636B25008732AA /* StatePattern.md in Resources */ = {isa = PBXBuildFile; fileRef = EDB7C35F22636B25008732AA /* StatePattern.md */; };
 		EDB7C365226390C8008732AA /* SoldState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C364226390C8008732AA /* SoldState.m */; };
 		EDB7C368226390D8008732AA /* SoldOutState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C367226390D8008732AA /* SoldOutState.m */; };
 		EDB7C36B226390E6008732AA /* NoQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB7C36A226390E6008732AA /* NoQuarterState.m */; };
@@ -178,12 +178,12 @@
 		EDBBCCFD226CAEC200BD4C5C /* Flock.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCCFC226CAEC200BD4C5C /* Flock.m */; };
 		EDBBCD02226CB54B00BD4C5C /* CPObservableImp.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCD01226CB54B00BD4C5C /* CPObservableImp.m */; };
 		EDBBCD08226CBB9F00BD4C5C /* Quackologist.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBBCD07226CBB9F00BD4C5C /* Quackologist.m */; };
-		EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */; };
+		EDD245B22247C714008D6016 /* TemplateMethodPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = EDD245B12247C714008D6016 /* TemplateMethodPattern.md */; };
 		EDD245B62247CF40008D6016 /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD245B52247CF40008D6016 /* AbstractClass.m */; };
 		EDD9A1DB22AD17BA00315FC3 /* DJView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD9A1DA22AD17BA00315FC3 /* DJView.m */; };
 		EDD9A1DE22AD31FB00315FC3 /* BeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD9A1DD22AD31FB00315FC3 /* BeatViewController.m */; };
-		EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.strings */; };
-		EDF77D23226C921E004E1D1D /* CompoundPattern.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDF77D22226C921E004E1D1D /* CompoundPattern.strings */; };
+		EDEC21CF21BE93A50088381F /* FactoryPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = EDEC21CE21BE93A50088381F /* FactoryPattern.md */; };
+		EDF77D23226C921E004E1D1D /* CompoundPattern.md in Resources */ = {isa = PBXBuildFile; fileRef = EDF77D22226C921E004E1D1D /* CompoundPattern.md */; };
 		EDF77D28226C9640004E1D1D /* CPMallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D27226C9640004E1D1D /* CPMallardDuck.m */; };
 		EDF77D2B226C9653004E1D1D /* CPRedheadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D2A226C9653004E1D1D /* CPRedheadDuck.m */; };
 		EDF77D2E226CA020004E1D1D /* CPDuckCall.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF77D2D226CA020004E1D1D /* CPDuckCall.m */; };
@@ -249,9 +249,8 @@
 		ED19D85521B5069900D92424 /* PaymentInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentInterface.h; sourceTree = "<group>"; };
 		ED19D85621B5144F00D92424 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		ED19D85721B5144F00D92424 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		ED19D85921B5170200D92424 /* OODesignPrinciple.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = OODesignPrinciple.strings; sourceTree = "<group>"; };
-		ED19D85B21B5190D00D92424 /* StrategyPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = StrategyPattern.strings; sourceTree = "<group>"; };
-		ED19D85E21B5605200D92424 /* ObserverPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ObserverPattern.strings; sourceTree = "<group>"; };
+		ED19D85B21B5190D00D92424 /* StrategyPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StrategyPattern.md; sourceTree = "<group>"; };
+		ED19D85E21B5605200D92424 /* ObserverPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ObserverPattern.md; sourceTree = "<group>"; };
 		ED19D86221B6593000D92424 /* SubjectInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectInterface.h; sourceTree = "<group>"; };
 		ED19D86321B6594200D92424 /* ObserverInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverInterface.h; sourceTree = "<group>"; };
 		ED19D86421B6595600D92424 /* DisplayElementInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayElementInterface.h; sourceTree = "<group>"; };
@@ -276,7 +275,7 @@
 		ED19D88821B7B29700D92424 /* FeedDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailView.h; sourceTree = "<group>"; };
 		ED19D88921B7B29700D92424 /* FeedDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailView.m; sourceTree = "<group>"; };
 		ED19D88B21B7B6D100D92424 /* PracticeDescription.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = PracticeDescription.strings; sourceTree = "<group>"; };
-		ED19D89521B949A100D92424 /* DecoratePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = DecoratePattern.strings; sourceTree = "<group>"; };
+		ED19D89521B949A100D92424 /* DecoratePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DecoratePattern.md; sourceTree = "<group>"; };
 		ED19D89B21B950A200D92424 /* Beverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
 		ED19D89C21B950A200D92424 /* Beverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
 		ED19D89E21B9524C00D92424 /* HouseBlend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
@@ -324,13 +323,13 @@
 		ED1E584622DC6B2E00B45B2A /* mediator_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mediator_pattern.png; sourceTree = "<group>"; };
 		ED1E584722DC6B2E00B45B2A /* state_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state_pattern.png; sourceTree = "<group>"; };
 		ED1E586022DC743A00B45B2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ED2C0AA0223E86140031198C /* AdapterPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AdapterPattern.strings; sourceTree = "<group>"; };
+		ED2C0AA0223E86140031198C /* AdapterPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AdapterPattern.md; sourceTree = "<group>"; };
 		ED2C0AA3223E91F90031198C /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
 		ED2C0AA4223E922A0031198C /* Enumeration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enumeration.h; sourceTree = "<group>"; };
 		ED2C0AA5223E92640031198C /* EnumerationIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumerationIterator.h; sourceTree = "<group>"; };
 		ED2C0AA6223E92640031198C /* EnumerationIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumerationIterator.m; sourceTree = "<group>"; };
-		ED2C0AA8223E95C70031198C /* FacadePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FacadePattern.strings; sourceTree = "<group>"; };
-		ED2CE7E1225900C10065051D /* CompositePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CompositePattern.strings; sourceTree = "<group>"; };
+		ED2C0AA8223E95C70031198C /* FacadePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FacadePattern.md; sourceTree = "<group>"; };
+		ED2CE7E1225900C10065051D /* CompositePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CompositePattern.md; sourceTree = "<group>"; };
 		ED2CE7E3225A18B10065051D /* MenuComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuComponent.h; sourceTree = "<group>"; };
 		ED2CE7E4225A18B10065051D /* MenuComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuComponent.m; sourceTree = "<group>"; };
 		ED2CE7E6225A19DA0065051D /* CPMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPMenuItem.h; sourceTree = "<group>"; };
@@ -355,7 +354,7 @@
 		ED30AFFA229194C8002AFE5B /* BeatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatModel.m; sourceTree = "<group>"; };
 		ED30AFFD229195C6002AFE5B /* DPObserverInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPObserverInterface.h; sourceTree = "<group>"; };
 		ED30AFFE2291994D002AFE5B /* DPSubjectInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSubjectInterface.h; sourceTree = "<group>"; };
-		ED47279D2250F6D5000C5492 /* IteratorPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = IteratorPattern.strings; sourceTree = "<group>"; };
+		ED47279D2250F6D5000C5492 /* IteratorPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IteratorPattern.md; sourceTree = "<group>"; };
 		ED4727A32250FD24000C5492 /* MenuInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuInterface.h; sourceTree = "<group>"; };
 		ED4727A42250FD3C000C5492 /* PancakeHouseMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeHouseMenu.h; sourceTree = "<group>"; };
 		ED4727A52250FD3C000C5492 /* PancakeHouseMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PancakeHouseMenu.m; sourceTree = "<group>"; };
@@ -405,8 +404,8 @@
 		ED6F36E12263A2E6008820F6 /* WinnerState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinnerState.m; sourceTree = "<group>"; };
 		ED6F36E42263A52F008820F6 /* StateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
 		ED6F36E52263A52F008820F6 /* StateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
-		ED76DAD022885AB1005DAEE1 /* MVCPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = MVCPattern.strings; sourceTree = "<group>"; };
-		ED8855082224142800676B87 /* SingletonPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SingletonPattern.strings; sourceTree = "<group>"; };
+		ED76DAD022885AB1005DAEE1 /* MVCPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MVCPattern.md; sourceTree = "<group>"; };
+		ED8855082224142800676B87 /* SingletonPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SingletonPattern.md; sourceTree = "<group>"; };
 		ED913929225106730071A15B /* FoodCourt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodCourt.h; sourceTree = "<group>"; };
 		ED91392A225106730071A15B /* FoodCourt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodCourt.m; sourceTree = "<group>"; };
 		ED91392C225106850071A15B /* Waitress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waitress.h; sourceTree = "<group>"; };
@@ -458,7 +457,7 @@
 		ED943A66221E3AC600BBA091 /* ANYIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANYIngredientFactory.m; sourceTree = "<group>"; };
 		ED9B42AC2235309500032EA1 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		ED9B42AD2235309500032EA1 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
-		ED9B42B1223535CE00032EA1 /* CommandPattern.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = CommandPattern.strings; sourceTree = "<group>"; };
+		ED9B42B1223535CE00032EA1 /* CommandPattern.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CommandPattern.md; sourceTree = "<group>"; };
 		ED9B42B522353CE800032EA1 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		ED9B42B622353D1600032EA1 /* LightOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
 		ED9B42B722353D1600032EA1 /* LightOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
@@ -500,7 +499,8 @@
 		ED9B42F1223561E400032EA1 /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
 		ED9B42F32235720100032EA1 /* MacroCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroCommand.h; sourceTree = "<group>"; };
 		ED9B42F42235720100032EA1 /* MacroCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroCommand.m; sourceTree = "<group>"; };
-		EDB7C35F22636B25008732AA /* StatePattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = StatePattern.strings; sourceTree = "<group>"; };
+		EDAEB8F5281AA1F600ECDDD1 /* OODesignPrinciple.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = OODesignPrinciple.md; sourceTree = "<group>"; };
+		EDB7C35F22636B25008732AA /* StatePattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StatePattern.md; sourceTree = "<group>"; };
 		EDB7C363226390C8008732AA /* SoldState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldState.h; sourceTree = "<group>"; };
 		EDB7C364226390C8008732AA /* SoldState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldState.m; sourceTree = "<group>"; };
 		EDB7C366226390D8008732AA /* SoldOutState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldOutState.h; sourceTree = "<group>"; };
@@ -526,15 +526,15 @@
 		EDBBCD05226CB6D500BD4C5C /* CPObserverInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPObserverInterface.h; sourceTree = "<group>"; };
 		EDBBCD06226CBB9F00BD4C5C /* Quackologist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quackologist.h; sourceTree = "<group>"; };
 		EDBBCD07226CBB9F00BD4C5C /* Quackologist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quackologist.m; sourceTree = "<group>"; };
-		EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TemplateMethodPattern.strings; sourceTree = "<group>"; };
+		EDD245B12247C714008D6016 /* TemplateMethodPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TemplateMethodPattern.md; sourceTree = "<group>"; };
 		EDD245B42247CF40008D6016 /* AbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
 		EDD245B52247CF40008D6016 /* AbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
 		EDD9A1D922AD17BA00315FC3 /* DJView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJView.h; sourceTree = "<group>"; };
 		EDD9A1DA22AD17BA00315FC3 /* DJView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJView.m; sourceTree = "<group>"; };
 		EDD9A1DC22AD31FB00315FC3 /* BeatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatViewController.h; sourceTree = "<group>"; };
 		EDD9A1DD22AD31FB00315FC3 /* BeatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatViewController.m; sourceTree = "<group>"; };
-		EDEC21CE21BE93A50088381F /* FactoryPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = FactoryPattern.strings; sourceTree = "<group>"; };
-		EDF77D22226C921E004E1D1D /* CompoundPattern.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CompoundPattern.strings; sourceTree = "<group>"; };
+		EDEC21CE21BE93A50088381F /* FactoryPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FactoryPattern.md; sourceTree = "<group>"; };
+		EDF77D22226C921E004E1D1D /* CompoundPattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CompoundPattern.md; sourceTree = "<group>"; };
 		EDF77D25226C95D2004E1D1D /* CPQuackInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPQuackInterface.h; sourceTree = "<group>"; };
 		EDF77D26226C9640004E1D1D /* CPMallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPMallardDuck.h; sourceTree = "<group>"; };
 		EDF77D27226C9640004E1D1D /* CPMallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPMallardDuck.m; sourceTree = "<group>"; };
@@ -575,8 +575,8 @@
 		ED19D7EE21B1618B00D92424 = {
 			isa = PBXGroup;
 			children = (
-				ED19D85921B5170200D92424 /* OODesignPrinciple.strings */,
 				ED1E586022DC743A00B45B2A /* README.md */,
+				EDAEB8F5281AA1F600ECDDD1 /* OODesignPrinciple.md */,
 				ED1E582E22DC6B2D00B45B2A /* PPT_Share */,
 				ED1E583022DC6B2D00B45B2A /* Resource */,
 				ED19D81E21B4E28100D92424 /* StrategyPattern */,
@@ -619,7 +619,7 @@
 		ED19D81E21B4E28100D92424 /* StrategyPattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED19D85B21B5190D00D92424 /* StrategyPattern.strings */,
+				ED19D85B21B5190D00D92424 /* StrategyPattern.md */,
 				ED19D84021B504E800D92424 /* Example */,
 				ED19D84121B504F800D92424 /* Practice */,
 			);
@@ -739,7 +739,7 @@
 		ED19D85D21B55E0600D92424 /* ObserverPattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED19D85E21B5605200D92424 /* ObserverPattern.strings */,
+				ED19D85E21B5605200D92424 /* ObserverPattern.md */,
 				ED19D86021B6115100D92424 /* Example */,
 				ED19D86121B6115A00D92424 /* Practice */,
 			);
@@ -827,7 +827,7 @@
 		ED19D89421B9036500D92424 /* DecoratePattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED19D89521B949A100D92424 /* DecoratePattern.strings */,
+				ED19D89521B949A100D92424 /* DecoratePattern.md */,
 				ED19D89721B94DF400D92424 /* Example */,
 				ED19D89821B94E0800D92424 /* Practice */,
 			);
@@ -927,7 +927,7 @@
 		ED2C0A9E223E83E70031198C /* FacadePattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED2C0AA8223E95C70031198C /* FacadePattern.strings */,
+				ED2C0AA8223E95C70031198C /* FacadePattern.md */,
 			);
 			path = FacadePattern;
 			sourceTree = "<group>";
@@ -935,7 +935,7 @@
 		ED2C0A9F223E83E70031198C /* AdapterPattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED2C0AA0223E86140031198C /* AdapterPattern.strings */,
+				ED2C0AA0223E86140031198C /* AdapterPattern.md */,
 				ED2C0AA2223E91DF0031198C /* Example */,
 			);
 			path = AdapterPattern;
@@ -955,7 +955,7 @@
 		ED2CE7E02259004C0065051D /* CompositePattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED2CE7E1225900C10065051D /* CompositePattern.strings */,
+				ED2CE7E1225900C10065051D /* CompositePattern.md */,
 				ED2CE803225A25FB0065051D /* Example */,
 				ED2CE804225A26080065051D /* Practice */,
 			);
@@ -1184,7 +1184,7 @@
 		ED76DACF22885A84005DAEE1 /* MVCPattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED76DAD022885AB1005DAEE1 /* MVCPattern.strings */,
+				ED76DAD022885AB1005DAEE1 /* MVCPattern.md */,
 				ED30AFF52291943F002AFE5B /* Example */,
 			);
 			path = MVCPattern;
@@ -1193,7 +1193,7 @@
 		ED8855062224137600676B87 /* SingletonPattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED8855082224142800676B87 /* SingletonPattern.strings */,
+				ED8855082224142800676B87 /* SingletonPattern.md */,
 				ED88550C2224144200676B87 /* Example */,
 				ED88550D2224144A00676B87 /* Practice */,
 			);
@@ -1352,7 +1352,7 @@
 		ED9B42AF223535CE00032EA1 /* CommandPattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED9B42B1223535CE00032EA1 /* CommandPattern.strings */,
+				ED9B42B1223535CE00032EA1 /* CommandPattern.md */,
 				ED9B42B0223535CE00032EA1 /* Example */,
 				ED9B42B2223535CE00032EA1 /* Practice */,
 			);
@@ -1445,7 +1445,7 @@
 		EDB7C35E22636AF4008732AA /* StatePattern */ = {
 			isa = PBXGroup;
 			children = (
-				EDB7C35F22636B25008732AA /* StatePattern.strings */,
+				EDB7C35F22636B25008732AA /* StatePattern.md */,
 				EDB7C3612263828D008732AA /* Example */,
 				ED6F36E32263A50B008820F6 /* Practice */,
 			);
@@ -1515,7 +1515,7 @@
 		EDD245B02247C6CA008D6016 /* TemplateMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
-				EDD245B12247C714008D6016 /* TemplateMethodPattern.strings */,
+				EDD245B12247C714008D6016 /* TemplateMethodPattern.md */,
 				EDD245B32247CF17008D6016 /* Example */,
 			);
 			path = TemplateMethodPattern;
@@ -1533,7 +1533,7 @@
 		EDD245B72247D814008D6016 /* IteratorPattern */ = {
 			isa = PBXGroup;
 			children = (
-				ED47279D2250F6D5000C5492 /* IteratorPattern.strings */,
+				ED47279D2250F6D5000C5492 /* IteratorPattern.md */,
 				ED47279F2250F7A8000C5492 /* Example */,
 				ED91393F225115A70071A15B /* Practice */,
 			);
@@ -1543,7 +1543,7 @@
 		EDEC21CD21BE93230088381F /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
-				EDEC21CE21BE93A50088381F /* FactoryPattern.strings */,
+				EDEC21CE21BE93A50088381F /* FactoryPattern.md */,
 				ED48FE0621C91DE3007EE9B9 /* Example */,
 				ED48FE0721C91E03007EE9B9 /* Practice */,
 			);
@@ -1553,7 +1553,7 @@
 		EDF77D21226C91DC004E1D1D /* CompoundPattern */ = {
 			isa = PBXGroup;
 			children = (
-				EDF77D22226C921E004E1D1D /* CompoundPattern.strings */,
+				EDF77D22226C921E004E1D1D /* CompoundPattern.md */,
 				EDF77D24226C94A8004E1D1D /* Example */,
 			);
 			path = CompoundPattern;
@@ -1707,42 +1707,42 @@
 				ED1E585722DC6B2E00B45B2A /* adapter_pattern.png in Resources */,
 				ED19D88C21B7B6D100D92424 /* PracticeDescription.strings in Resources */,
 				ED1E585D22DC6B2E00B45B2A /* strategy_pattern.png in Resources */,
-				ED2CE7E2225900C10065051D /* CompositePattern.strings in Resources */,
+				ED2CE7E2225900C10065051D /* CompositePattern.md in Resources */,
 				ED1E584A22DC6B2E00B45B2A /* singleton_pattern.png in Resources */,
 				ED1E585122DC6B2E00B45B2A /* observer_pattern.png in Resources */,
-				ED2C0AA1223E86140031198C /* AdapterPattern.strings in Resources */,
-				ED19D85A21B5170200D92424 /* OODesignPrinciple.strings in Resources */,
+				ED2C0AA1223E86140031198C /* AdapterPattern.md in Resources */,
 				ED1E584922DC6B2E00B45B2A /* interpreter_pattern.png in Resources */,
 				ED1E584F22DC6B2E00B45B2A /* factory_method_pattern.png in Resources */,
 				ED1E585422DC6B2E00B45B2A /* builder_pattern.png in Resources */,
-				ED19D85F21B5605200D92424 /* ObserverPattern.strings in Resources */,
+				ED19D85F21B5605200D92424 /* ObserverPattern.md in Resources */,
 				ED1E585222DC6B2E00B45B2A /* composite_pattern.png in Resources */,
 				ED1E585A22DC6B2E00B45B2A /* responsibility_pattern.png in Resources */,
-				ED2C0AA9223E95C70031198C /* FacadePattern.strings in Resources */,
+				ED2C0AA9223E95C70031198C /* FacadePattern.md in Resources */,
 				ED1E584822DC6B2E00B45B2A /* 设计模式分享.pdf in Resources */,
 				ED1E585922DC6B2E00B45B2A /* prototype_pattern.png in Resources */,
 				ED1E584E22DC6B2E00B45B2A /* flyweight_pattern.png in Resources */,
-				EDF77D23226C921E004E1D1D /* CompoundPattern.strings in Resources */,
-				EDEC21CF21BE93A50088381F /* FactoryPattern.strings in Resources */,
+				EDF77D23226C921E004E1D1D /* CompoundPattern.md in Resources */,
+				EDEC21CF21BE93A50088381F /* FactoryPattern.md in Resources */,
 				ED1E584C22DC6B2E00B45B2A /* proxy_pattern.png in Resources */,
-				EDD245B22247C714008D6016 /* TemplateMethodPattern.strings in Resources */,
+				EDD245B22247C714008D6016 /* TemplateMethodPattern.md in Resources */,
 				ED19D80721B1618D00D92424 /* LaunchScreen.storyboard in Resources */,
 				ED1E585822DC6B2E00B45B2A /* facade_pattern.png in Resources */,
-				ED8855092224142800676B87 /* SingletonPattern.strings in Resources */,
-				ED19D89621B949A100D92424 /* DecoratePattern.strings in Resources */,
-				EDB7C36022636B25008732AA /* StatePattern.strings in Resources */,
+				ED8855092224142800676B87 /* SingletonPattern.md in Resources */,
+				ED19D89621B949A100D92424 /* DecoratePattern.md in Resources */,
+				EDB7C36022636B25008732AA /* StatePattern.md in Resources */,
 				ED19D80421B1618D00D92424 /* Assets.xcassets in Resources */,
 				ED1E585F22DC6B2E00B45B2A /* state_pattern.png in Resources */,
 				ED1E585522DC6B2E00B45B2A /* bridge_pattern.png in Resources */,
-				ED76DAD122885AB1005DAEE1 /* MVCPattern.strings in Resources */,
+				ED76DAD122885AB1005DAEE1 /* MVCPattern.md in Resources */,
+				EDAEB8F6281AA1F600ECDDD1 /* OODesignPrinciple.md in Resources */,
 				ED1E584B22DC6B2E00B45B2A /* visitor_pattern.png in Resources */,
 				ED1E585622DC6B2E00B45B2A /* memento_pattern.png in Resources */,
 				ED19D80221B1618B00D92424 /* Main.storyboard in Resources */,
 				ED1E585B22DC6B2E00B45B2A /* iterator_pattern.png in Resources */,
-				ED19D85C21B5190D00D92424 /* StrategyPattern.strings in Resources */,
-				ED47279E2250F6D5000C5492 /* IteratorPattern.strings in Resources */,
+				ED19D85C21B5190D00D92424 /* StrategyPattern.md in Resources */,
+				ED47279E2250F6D5000C5492 /* IteratorPattern.md in Resources */,
 				ED1E585E22DC6B2E00B45B2A /* mediator_pattern.png in Resources */,
-				ED9B42B4223535CE00032EA1 /* CommandPattern.strings in Resources */,
+				ED9B42B4223535CE00032EA1 /* CommandPattern.md in Resources */,
 				ED1E586122DC743A00B45B2A /* README.md in Resources */,
 				ED1E585022DC6B2E00B45B2A /* template_method_pattern.png in Resources */,
 			);
